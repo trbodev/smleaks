@@ -29,10 +29,6 @@ export default function Header(opts) {
       <title>{title}</title>
       <script async src="https://arc.io/widget.min.js#iB6CnyLz" />
       <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "155227d43a2043889cc5c9b87ecba9d3", "spa": true}' />
-      <script dangerouslySetInnerHTML={{
-        __html: 'if(![\'127.0.0.1\',\'localhost\',\'smleaks.com\'].includes(location.hostname)&&location.search!=="?d=b") location.href = \'https://smleaks.com\'+location.pathname',
-      }}
-      />
       <link rel="preconnect" href="https://i.imgur.com" />
       <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
       <link rel="preconnect" href="https://static.cloudflareinsights.com" />
