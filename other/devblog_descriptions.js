@@ -1,8 +1,8 @@
 module.exports = {
   devblog22: {
-    description: 'New devblog, coming through! This time, we want to focus on some optimisations coming up in the not-too-distant future.',
+    description: 'New devblog, coming through! This time, we want to focus on some optimisations coming up in the not-too-distant future. (April Fools!)',
     url: 'https://scrapmechanic.net/news/devblog-22-is-here',
-    date: '04/01/21',
+    date: '04/01/2021',
     image_url: 'https://i.imgur.com/VKeVNmv.png',
   },
   devblog21: {

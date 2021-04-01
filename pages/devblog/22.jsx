@@ -125,7 +125,7 @@ export default function Devblog22(page) {
                       {' '}
                       <a href="https://scrapmechanic.net/news/devblog-22-is-here">scrapmechanic.net</a>
                       {' '}
-                      (that i own)
+                      (that I own)
                       and
                       {' '}
                       <a href="https://workers.cloudflare.com">Cloudflare Workers</a>
