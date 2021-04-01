@@ -17,6 +17,7 @@ dependencies:
   react-device-detect: 1.17.0_react-dom@0.0.3+react@0.0.3
   react-dom: /@preact/compat/0.0.3_preact@10.5.13
   react-lazy-load-image-component: 1.5.1_react-dom@0.0.3+react@0.0.3
+  react-ssr-prepass: /preact-ssr-prepass/1.1.3_preact@10.5.13
 devDependencies:
   eslint: 7.21.0
   eslint-config-airbnb: 18.2.1_6b4720a4b079d78da351033a312045bb
@@ -3309,6 +3310,14 @@ packages:
       preact: '>=10'
     resolution:
       integrity: sha512-jTL6iTZeheYOhb54r7KuyrNCf33lc+Z52Wos5P1z2wGZ/dREfhBVwrK1qGOrl4fboBN1KxC1lxhBchDHNZr8Uw==
+  /preact-ssr-prepass/1.1.3_preact@10.5.13:
+    dependencies:
+      preact: 10.5.13
+    dev: false
+    peerDependencies:
+      preact: '>=10 || ^10.0.0-beta.0 || ^10.0.0-alpha.0'
+    resolution:
+      integrity: sha512-pDWwj88IPz9fUFEuPv9HfRsVlovf6a8eLgQDrNnksxfUeI1bHekNhDesDQXVq0L1XovZAzmfmIjwWDKo4gtoYQ==
   /preact/10.5.13:
     dev: false
     resolution:
@@ -4443,3 +4452,4 @@ specifiers:
   react-device-detect: ^1.17.0
   react-dom: npm:@preact/compat@0.0.3
   react-lazy-load-image-component: ^1.5.1
+  react-ssr-prepass: npm:preact-ssr-prepass
