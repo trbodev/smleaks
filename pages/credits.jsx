@@ -11,6 +11,7 @@ export const getStaticProps = () => ({
   props: {
     title: 'Credits',
     id: 'credits',
+    description: 'The important people who have helped make this project possible!',
   },
 });
 

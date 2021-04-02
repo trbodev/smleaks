@@ -14,6 +14,7 @@ export const getStaticProps = () => ({
   props: {
     title: 'Devblogs',
     id: 'devblogs',
+    description: 'All the Scrap Mechanic devblogs in one convenient place!',
   },
 });
 
