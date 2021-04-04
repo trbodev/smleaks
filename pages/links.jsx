@@ -10,6 +10,7 @@ export const getStaticProps = () => ({
   props: {
     title: 'Links',
     id: 'links',
+    description: 'Some useful links related to SMLeaks.',
   },
 });
 

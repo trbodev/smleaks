@@ -27,8 +27,8 @@ export default function Header(opts) {
       <meta name="apple-mobile-web-app-status-bar-style" content="#E67E22" />
       <link rel="icon" href={Logo} />
       <title>{title}</title>
-      <script async src="https://arc.io/widget.min.js#iB6CnyLz" />
-      <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "155227d43a2043889cc5c9b87ecba9d3", "spa": true}' />
+      {process.env.NEXT_PUBLIC_ARC_IO_ENABLED === 'true' ? <script async src={`https://arc.io/widget.min.js#${process.env.NEXT_PUBLIC_ARC_IO_ID}`} /> : null}
+      {process.env.NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_ENABLED === 'true' ? <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${process.env.NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN}", "spa": true}`} /> : null}
       <link rel="preconnect" href="https://i.imgur.com" />
       <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
       <link rel="preconnect" href="https://static.cloudflareinsights.com" />

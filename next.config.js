@@ -5,18 +5,24 @@ const withPreact = require('next-plugin-preact');
 require('preact');
 
 module.exports = withPlugins([
-  [optimizedImages, {
-    images: {
-      handleImages: ['png', 'webp', 'jpeg'],
-      outputPath: 'static/images/',
-      publicPath: '/_next/static/images/',
+  [
+    optimizedImages,
+    {
+      images: {
+        handleImages: ['png', 'webp', 'jpeg'],
+        outputPath: 'static/images/',
+        publicPath: '/_next/static/images/',
+      },
     },
-  }],
-  [withPreact, {
-    experimental: {
-      modern: true,
+  ],
+  [
+    withPreact,
+    {
+      experimental: {
+        modern: true,
+      },
     },
-  }],
+  ],
 ], {
   webpack: (config, {
     webpack,

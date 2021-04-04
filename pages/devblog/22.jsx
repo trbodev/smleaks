@@ -18,8 +18,8 @@ import Comments from '../../components/Comments';
 
 import { devblog22 as devblog } from '../../other/devblog_descriptions';
 
-// import Title from '../../public/images/devblog/22/title.png?webp&url';
-// import TitleLQ from '../../public/images/devblog/22/title.png?webp&lqip';
+import Title from '../../public/images/devblog/22/title.png?webp&url';
+import TitleLQ from '../../public/images/devblog/22/title.png?webp&lqip';
 
 export const getStaticProps = () => ({
   props: {
@@ -32,7 +32,7 @@ export const getStaticProps = () => ({
       ...devblog,
     },
     image: {
-      url: devblog.image_url,
+      url: devblog.image_url || Title.toString(),
       large: true,
     },
   },
@@ -132,10 +132,11 @@ export default function Devblog22(page) {
                       {' '}
                       to host the page.
                     </div>
+                    <br />
                     <LazyLoadImage
                       alt="title"
-                      src="https://i.imgur.com/VKeVNmv.png"
-                      placeholderSrc="https://i.imgur.com/VKeVNmvs.png"
+                      src={Title}
+                      placeholderSrc={TitleLQ}
                       effect="blur"
                     />
                     <br />
