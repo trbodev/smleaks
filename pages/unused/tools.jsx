@@ -87,19 +87,27 @@ export default function UnusedTools(page) {
                   <br />
                   <a id="garden-shovel" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
                   <figure>
-                    <a href="/images/tools/garden-shovel.png">
+                    <a href="/images/tools/garden-shovel-hand.png">
                       <LazyLoadImage
                         alt="garden-shovel"
-                        src={require('../../public/images/tools/garden-shovel.png?webp&width=300&url')}
-                        placeholderSrc={require('../../public/images/tools/garden-shovel.png?webp&lqip')}
+                        src={require('../../public/images/tools/garden-shovel-hand.png?webp&width=300&url')}
+                        placeholderSrc={require('../../public/images/tools/garden-shovel-hand.png?webp&lqip')}
                         style={{ maxWidth: 300, width: '100%' }}
+                      />
+                    </a>
+                    <a href="/images/tools/garden-shovel-color.png">
+                      <LazyLoadImage
+                        alt="garden-shovel"
+                        src={require('../../public/images/tools/garden-shovel-color.png?webp&width=300&url')}
+                        placeholderSrc={require('../../public/images/tools/garden-shovel-color.png?webp&lqip')}
+                        style={{ maxWidth: 180, width: '100%', marginLeft: 20 }}
                       />
                     </a>
                     <figcaption>
                       Garden Shovel
                       <br />
                       <small>
-                        Found and Rendered By ChargingTurnip#9832 on
+                        Found by ChargingTurnip#9832, Image by rockstar modder#8706 on
                         Discord
                       </small>
                     </figcaption>
