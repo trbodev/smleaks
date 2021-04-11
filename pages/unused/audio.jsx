@@ -136,6 +136,36 @@ export default function UnusedAudio(page) {
                     />
                   </audio>
                   <br />
+                  <a id="alarms" href="#" style={{ visibility: 'hidden' }} />
+                  {' '}
+                  Digital Clock Alarms (Possibly from
+                  {' '}
+                  <Link href="/devblog/21#digital-clock">
+                    <a href="/devblog/21#digital-clock">
+                      Devblog 21
+                    </a>
+                  </Link>
+                  )
+                  {' '}
+                  <br />
+                  {
+                    Array(4).fill(0).map((e, i) => (
+                      <div>
+                        <small>
+                          alarm0
+                          {i + 1}
+                        </small>
+                        <br />
+                        <audio controls="controls">
+                          <source
+                            src={`/audio/alarm0${i + 1}.wav`}
+                            type="audio/wav"
+                          />
+                        </audio>
+                        <br />
+                      </div>
+                    ))
+                  }
                   <a id="other" href="#" style={{ visibility: 'hidden' }} />
                   {' '}
                   Other
