@@ -21,6 +21,7 @@ export const getStaticProps = () => ({
 
 export default function Home(page) {
   const [sidebar, toggleSidebar] = useState(isMobile ? { 'data-sidebar-hidden': 'hidden' } : {});
+  const [showPricing, setShowPricing] = useState(false);
   return (
     <div>
       <Header {...page} />
@@ -69,6 +70,8 @@ export default function Home(page) {
                             <a href="https://reactjs.org/">React</a>
                             {' '}
                             ramework)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Open Source</div> : null}
                           </li>
                           <li>
                             <a href="https://preactjs.com/">Preact</a>
@@ -78,21 +81,29 @@ export default function Home(page) {
                             <a href="https://reactjs.org/">React</a>
                             {' '}
                             Alternitive)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Open Source</div> : null}
                           </li>
                           <li>
                             <a href="https://gethalfmoon.com/">Halfmoon CSS</a>
                             {' '}
                             (UI Style)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Open Source</div> : null}
                           </li>
                           <li>
                             <a href="https://fontawesome.com/">Font Awesome</a>
                             {' '}
                             (Icons)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
                           </li>
                           <li>
                             <a href="https://pages.cloudflare.com/">Cloudflare Pages</a>
                             {' '}
                             (Hosting)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
                           </li>
                           <li>
                             <a href="https://vercel.com">Vercel</a>
@@ -101,6 +112,8 @@ export default function Home(page) {
                             <a href="https://dev.smleaks.com">Development Version</a>
                             {' '}
                             Hosting)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
                           </li>
                           <pre>
                             <li>
@@ -134,6 +147,8 @@ export default function Home(page) {
                         <ul style={{ marginTop: 8, marginBottom: 0 }}>
                           <li>
                             <a href="https://ghost.org/">Ghost CMS</a>
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Open Source</div> : null}
                           </li>
                         </ul>
                       </li>
@@ -142,11 +157,15 @@ export default function Home(page) {
                         <ul style={{ marginTop: 8, marginBottom: 0 }}>
                           <li>
                             <a href="https://instatus.com/">Instatus</a>
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
                           </li>
                           <li>
                             <a href="https://uptimerobot.com/">UptimeRobot</a>
                             {' '}
                             (Automated Status Check)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
                           </li>
                         </ul>
                       </li>
@@ -189,6 +208,8 @@ export default function Home(page) {
                             <a href="https://cloudflare.com/">Cloudflare</a>
                             {' '}
                             (DNS, Registrar, DDoS Protection, Web Analytics)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
                           </li>
                           <li>
                             <a href="https://contabo.com">Contabo</a>
@@ -202,28 +223,73 @@ export default function Home(page) {
                                 }}
                               />
                             </a>
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Paid Only</div> : null}
                           </li>
                           <li>
                             <a href="https://arc.io">Arc.IO</a>
                             {' '}
                             (Ads Alternitive)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
                           </li>
                           <li>
                             <a href="https://docker.io">Docker</a>
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Open Source</div> : null}
                           </li>
                           <li>
                             <a href="https://caprover.com/">CapRover</a>
                             {' '}
                             (PaaS Docker WebGUI)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Open Source</div> : null}
                           </li>
                           <li>
                             <a href="https://nginx.org/">NGINX</a>
                             {' '}
                             (Reverse Proxy)
+                            {' '}
+                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
                           </li>
                         </ul>
                       </li>
                     </ul>
+                    <div
+                      className="alert alert-success"
+                      style={{
+                        color: 'rgba(255,255,255,.8)',
+                      }}
+                    >
+                      <h6 className="alert-heading">
+                        <b>
+                          Cool Note:
+                        </b>
+                      </h6>
+                      A majority of these producs are free and
+                      don&apos;t require a credit card or PayPal payment to sign-up or use!
+                      <br />
+                      <div className="form-group" style={{ marginBottom: 0, marginTop: 5 }}>
+                        <div className="input-group">
+                          <div className="input-group-prepend">
+                            <span className="input-group-text">Show Pricing</span>
+                          </div>
+                          <input
+                            type="button"
+                            className={`btn ${showPricing ? 'btn-primary' : ''} btn-sm`}
+                            onClick={() => {
+                              setShowPricing(!showPricing);
+                            }}
+                            value={showPricing ? '✔' : '✖'}
+                            style={{
+                              borderTopLeftRadius: 0,
+                              borderBottomLeftRadius: 0,
+                            }}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <br />
                     <a id="contabo-notice" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
                     <div
                       className="alert"
