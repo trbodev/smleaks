@@ -5,6 +5,7 @@
 import { useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Link from 'next/link';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
@@ -87,9 +88,9 @@ export default function UnusedParts(page) {
                     <a href="/images/other/piston2.png">
                       <LazyLoadImage
                         alt="piston2"
-                        src={require('../../public/images/other/piston2.png?webp&width=300&url')}
+                        src={require('../../public/images/other/piston2.png?webp&width=400&url')}
                         placeholderSrc={require('../../public/images/other/piston2.png?webp&lqip')}
-                        style={{ maxWidth: 300, width: '100%' }}
+                        style={{ maxWidth: 400, width: '100%' }}
                       />
                     </a>
                     <figcaption>
@@ -102,6 +103,33 @@ export default function UnusedParts(page) {
                         , Image by
                         {' '}
                         {usernames.ivan}
+                      </small>
+                    </figcaption>
+                  </figure>
+                  <a id="car-parts" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
+                  <figure>
+                    <a href="/images/other/car-parts.png">
+                      <LazyLoadImage
+                        alt="piston2"
+                        src={require('../../public/images/other/car-parts.png?webp&width=500&url')}
+                        placeholderSrc={require('../../public/images/other/car-parts.png?webp&lqip')}
+                        style={{ maxWidth: 500, width: '100%' }}
+                      />
+                    </a>
+                    <figcaption>
+                      Survival Car Parts (From
+                      {' '}
+                      <Link href="/devblog/7#survival-cars">
+                        <a href="/devblog/7#survival-cars">
+                          Devblog 7
+                        </a>
+                      </Link>
+                      )
+                      <br />
+                      <small>
+                        Image by
+                        {' '}
+                        {usernames.bananaCat}
                       </small>
                     </figcaption>
                   </figure>
