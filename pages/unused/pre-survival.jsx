@@ -12,6 +12,7 @@ import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
 import SidebarOverlay from '../../components/SidebarOverlay';
 import usernames from '../../other/usernames';
+import HoverBlur from '../../styles/HoverBlur.module.css';
 
 export const getStaticProps = () => ({
   props: {
@@ -56,6 +57,7 @@ export default function UnusedTools(page) {
                         src={require('../../public/images/pre-survival/hanging-character.png?webp&width=300&url')}
                         placeholderSrc={require('../../public/images/pre-survival/hanging-character.png?webp&lqip')}
                         style={{ maxWidth: 300, width: '100%' }}
+                        className={HoverBlur['hover-blur']}
                         effect="blur"
                       />
                     </a>
@@ -238,7 +240,7 @@ export default function UnusedTools(page) {
                       Ship Tile
                       <br />
                       <small>
-                        Images by
+                        Image by
                         {' '}
                         {usernames.dartFrog}
                       </small>
