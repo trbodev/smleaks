@@ -1,7 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import { useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
@@ -191,6 +194,14 @@ export default function Home(page) {
                             <a href="https://contabo.com">Contabo</a>
                             {' '}
                             (VPS Hosting)
+                            <a href="#contabo-notice">
+                              <FontAwesomeIcon
+                                icon={faInfoCircle}
+                                style={{
+                                  marginLeft: 5,
+                                }}
+                              />
+                            </a>
                           </li>
                           <li>
                             <a href="https://arc.io">Arc.IO</a>
@@ -213,6 +224,25 @@ export default function Home(page) {
                         </ul>
                       </li>
                     </ul>
+                    <a id="contabo-notice" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
+                    <div
+                      className="alert"
+                      style={{
+                        backgroundColor: '#302c19',
+                        backgroundImage: 'none',
+                        borderColor: '#8c790e',
+                      }}
+                    >
+                      <h6 className="alert-heading">
+                        <b>
+                          Important Note for Contabo:
+                        </b>
+                      </h6>
+                      I don&apos;t reccomend using Contabo because their Privacy Policy
+                      is pretty vague on what they do with the data
+                      you stored on your servers after you stop using them.
+                      (I only use them because I&apos;m basically broke)
+                    </div>
                   </article>
                 </div>
               </div>
