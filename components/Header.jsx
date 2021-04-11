@@ -20,7 +20,8 @@ export default function Header(opts) {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={opts.description || 'Community run leaking website for Scrap Mechanic'} />
       <meta name="description" content={opts.description || 'Community run leaking website for Scrap Mechanic'} />
-      {image.enabled === false ? <></> : <meta property="og:image" content={image.url || LogoFull.toString()} />}
+      {image.enabled === false ? <></> : <meta property="og:image" content={`https://${process.env.NEXT_PUBLIC_DOMAIN}${image.url || LogoFull.toString()}`} />}
+      {image.enabled === false ? <></> : <meta property="twitter:image" content={`https://${process.env.NEXT_PUBLIC_DOMAIN}${image.url || LogoFull.toString()}`} />}
       {image.enabled === false || !image.large ? <></> : <meta name="twitter:card" content="summary_large_image" />}
       <meta name="theme-color" content="#E67E22" />
       <meta name="msapplication-navbutton-color" content="#E67E22" />
