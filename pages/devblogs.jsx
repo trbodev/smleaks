@@ -56,7 +56,7 @@ export default function Devblogs(page) {
                       return (
                         <li id={`devblog-${devblogId}`} key={`devblog-${devblogId}`}>
                           <Link prefetch={false} href={`/devblog/${devblogId}`}>
-                            <a id={`devblog-${devblogId}`}>
+                            <a id={`devblog-${devblogId}`} style={{ marginLeft: -10 }}>
                               Devblog
                               {' '}
                               {devblogId}
