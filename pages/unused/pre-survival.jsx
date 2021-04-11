@@ -160,7 +160,7 @@ export default function UnusedTools(page) {
                       Insulation Block
                       <br />
                       <small>
-                        &quot;Was commented out in the files and removed in 0.2 or earlier
+                        &quot;Was commented out in the files and removed in 0.2 or earlier.
                         An updated version of this block has been
                         added to the game in the Survival Update (0.4.0)&quot;
                         <br />
@@ -210,7 +210,7 @@ export default function UnusedTools(page) {
                       Beta Spaceship Block
                       <br />
                       <small>
-                        &quot;Was commented out in the files and removed in 0.2 or earlier
+                        &quot;Was commented out in the files and removed in 0.2 or earlier.
                         Unlike the other 2 commented blocks,
                         it had no description or name in the inventory,
                         and it&apos;s preview was larger than all other blocks.
