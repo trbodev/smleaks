@@ -205,6 +205,11 @@ export default function Home(page) {
                             {' '}
                             (PaaS Docker WebGUI)
                           </li>
+                          <li>
+                            <a href="https://nginx.org/">NGINX</a>
+                            {' '}
+                            (Reverse Proxy)
+                          </li>
                         </ul>
                       </li>
                     </ul>
