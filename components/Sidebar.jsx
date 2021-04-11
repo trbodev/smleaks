@@ -47,7 +47,7 @@ export default function Home({ id }) {
                 ['/credits', 'credits', faUserPlus, 'Credits'],
                 ['/links', 'links', faLink, 'Links'],
                 ['/devblogs', 'devblogs', faBook, 'Devblogs'],
-                ['/technical-info', 'technical-info', faTerminal, 'Technical Info'],
+                ['/technical-info', 'technical-info', faTerminal, 'Technical Info', <div className="badge badge-primary" style={{ marginLeft: 8, color: 'rgba(255,255,255,.8)' }}>New!</div>],
               ],
             ],
           ].map((group) => (
@@ -64,6 +64,7 @@ export default function Home({ id }) {
                       <FontAwesomeIcon icon={link[2]} fixedWidth />
                     </span>
                     {link[3]}
+                    {link[4] ? link[4] : null}
                   </a>
                 </Link>
               ))
