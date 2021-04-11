@@ -161,6 +161,52 @@ export default function UnusedTools(page) {
                       </small>
                     </figcaption>
                   </figure>
+                  <a id="spaceship-block" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
+                  <figure>
+                    <a href="/images/pre-survival/spaceship-block.png">
+                      <LazyLoadImage
+                        alt="spaceship-block"
+                        src={require('../../public/images/pre-survival/spaceship-block.png?webp&width=200&url')}
+                        placeholderSrc={require('../../public/images/pre-survival/spaceship-block.png?webp&lqip')}
+                        style={{ maxWidth: 200, width: '100%' }}
+                        effect="blur"
+                      />
+                    </a>
+                    <br />
+                    <video
+                      src="https://thumbs.gfycat.com/DizzyAjarFly-mobile.mp4"
+                      autoPlay
+                      muted
+                      loop
+                      style={{ maxWidth: 500, width: '100%' }}
+                    />
+                    <br />
+                    <video
+                      src="https://thumbs.gfycat.com/BriskGratefulBream-mobile.mp4"
+                      autoPlay
+                      muted
+                      loop
+                      style={{ maxWidth: 500, width: '100%' }}
+                    />
+                    <br />
+                    <video
+                      src="https://thumbs.gfycat.com/SparklingRepentantDipper-mobile.mp4"
+                      autoPlay
+                      muted
+                      loop
+                      style={{ maxWidth: 500, width: '100%' }}
+                    />
+                    <br />
+                    <figcaption>
+                      Spaceship Block
+                      <br />
+                      <small>
+                        Images by
+                        {' '}
+                        {usernames.dartFrog}
+                      </small>
+                    </figcaption>
+                  </figure>
                   <a id="ship-tile" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
                   <figure>
                     <a href="/images/pre-survival/ship-tile.png">
