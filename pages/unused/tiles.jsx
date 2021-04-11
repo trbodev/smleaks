@@ -48,27 +48,6 @@ export default function UnusedTiles(page) {
                   <h1 className="content-title">Unused Tiles</h1>
                 </div>
                 <div className="card">
-                  <a id="weird-tile" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
-                  <figure>
-                    <a href="/images/other/weirdtile.png">
-                      <LazyLoadImage
-                        alt="weird-tile"
-                        src={require('../../public/images/other/weirdtile.png?webp&width=300&url')}
-                        placeholderSrc={require('../../public/images/other/weirdtile.png?webp&lqip')}
-                        style={{ maxWidth: 300, width: '100%' }}
-                      />
-                    </a>
-                    <figcaption>
-                      Weird Tile (we can&apos;t find the .tile of it)
-                      <br />
-                      <small>
-                        Found by
-                        {' '}
-                        {usernames.turbo}
-                      </small>
-                    </figcaption>
-                  </figure>
-                  <br />
                   <a id="unused-tile-assest-icons" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
                   <figure>
                     <img
