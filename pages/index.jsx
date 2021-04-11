@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 import SidebarOverlay from '../components/SidebarOverlay';
+import usernames from '../other/usernames';
 
 export const getStaticProps = () => ({
   props: {
@@ -48,7 +49,7 @@ export default function Home(page) {
                     <br />
                     This is currently being run and maintained by
                     {' '}
-                    <a href="https://trbo.sh">Turbo Biscuit</a>
+                    <a href="https://trbo.sh">{usernames.turbo}</a>
                     .
                     <br />
                     You can also check out the

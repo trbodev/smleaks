@@ -11,6 +11,7 @@ import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
 import SidebarOverlay from '../../components/SidebarOverlay';
+import usernames from '../../other/usernames';
 
 export const getStaticProps = () => ({
   props: {
@@ -61,7 +62,11 @@ export default function UnusedParticles(page) {
                     <figcaption>
                       Encryptor Turn On
                       <br />
-                      <small>Found By Turbo Biscuit</small>
+                      <small>
+                        Found by
+                        {' '}
+                        {usernames.turbo}
+                      </small>
                     </figcaption>
                   </figure>
                   <a id="encryptor-particle" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
@@ -75,7 +80,9 @@ export default function UnusedParticles(page) {
                       Encryptor Particle Showcase
                       <br />
                       <small>
-                        By 🍅Tomatech#5591
+                        By
+                        {' '}
+                        {usernames.tomatech}
                       </small>
                     </figcaption>
                   </figure>
@@ -90,7 +97,9 @@ export default function UnusedParticles(page) {
                       Audio Log Particle
                       <br />
                       <small>
-                        Found By Question Mark#2071
+                        Found by
+                        {' '}
+                        {usernames.questionMark}
                       </small>
                     </figcaption>
                   </figure>
@@ -104,7 +113,9 @@ export default function UnusedParticles(page) {
                       Audio Log Pickup Particle
                       <br />
                       <small>
-                        Found By Question Mark#2071
+                        Found by
+                        {' '}
+                        {usernames.questionMark}
                       </small>
                     </figcaption>
                   </figure>

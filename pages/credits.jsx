@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
 import SidebarOverlay from '../components/SidebarOverlay';
+import usernames from '../other/usernames';
 
 export const getStaticProps = () => ({
   props: {
@@ -47,15 +48,19 @@ export default function Credits(page) {
                     <div>
                       <ul>
                         <li>
-                          <a href="https://trbo.sh">Turbo Biscuit</a>
+                          <a href="https://trbo.sh">{usernames.turbo}</a>
                           {' '}
                           - Creator and Maintainter of SMLeaks
                         </li>
                         <li>
-                          IvanCoHe - OG Survival Predictionist
+                          {usernames.ivan}
+                          {' '}
+                          - OG Survival Predictionist
                         </li>
                         <li>
-                          ChargingTurnip - Rendered the
+                          {usernames.charging}
+                          {' '}
+                          - Rendered the
                           {' '}
                           <Link href="/logbook/items#logbook-items">
                             <a href="/logbook/items#logbook-items">SMLeaks Logo</a>
@@ -63,7 +68,7 @@ export default function Credits(page) {
                         </li>
                         <li>
                           <a href="https://github.com/technologicnick">
-                            Technologic Nick
+                            {usernames.nick}
 
                           </a>
                           - Found the files for the
@@ -71,16 +76,18 @@ export default function Credits(page) {
                           <Link href="/unused/parts#plastic-pumpkin"><a href="/unused/parts#plastic-pumpkin">Plastic Pumpkin</a></Link>
                         </li>
                         <li>
-                          Rockstar Modder - Current Survial Predictionist
+                          {usernames.rockstar}
+                          {' '}
+                          - Current Survial Predictionist
                         </li>
-                        <li>FutureMapper</li>
+                        <li>{usernames.futureMapper}</li>
                         <li>
                           <a href="https://twitter.com/_QuestionableM_">
-                            Question Mark
+                            {usernames.questionMark}
                           </a>
                         </li>
-                        <li>BananaCat</li>
-                        <li>ModGamer29</li>
+                        <li>{usernames.bananaCat}</li>
+                        <li>{usernames.modGamer}</li>
                       </ul>
                       <small>
                         (you have contributed to SMLeaks in any way

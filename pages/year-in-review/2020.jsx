@@ -48,8 +48,7 @@ export default function Credits(page) {
                     {' '}
                     <bold>
                       <i>but closer</i>
-                    </bold
-                    >
+                    </bold>
                     .
                     <br />
                     Some backstory for you, SMLeaks started back in January of

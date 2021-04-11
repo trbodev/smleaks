@@ -11,6 +11,7 @@ import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
 import SidebarOverlay from '../../components/SidebarOverlay';
+import usernames from '../../other/usernames';
 
 export const getStaticProps = () => ({
   props: {
@@ -88,8 +89,9 @@ export default function LogbookItems(page) {
                       {' '}
                       <br />
                       <small>
-                        Found and Rendered By ChargingTurnip#9832 on
-                        Discord
+                        Found and Rendered by
+                        {' '}
+                        {usernames.charging}
                       </small>
                     </figcaption>
                   </figure>
@@ -109,8 +111,9 @@ export default function LogbookItems(page) {
                       Open Terminal
                       <br />
                       <small>
-                        Found and Rendered By ChargingTurnip#9832 on
-                        Discord
+                        Found and Rendered by
+                        {' '}
+                        {usernames.charging}
                       </small>
                     </figcaption>
                   </figure>
@@ -139,7 +142,9 @@ export default function LogbookItems(page) {
                       Open Log Book (In-Game)
                       <br />
                       <small>
-                        Images By rockstar modder#8706 on Discord
+                        Images by
+                        {' '}
+                        {usernames.rockstar}
                       </small>
                     </figcaption>
                   </figure>
@@ -159,7 +164,12 @@ export default function LogbookItems(page) {
                       Log Book
                       <br />
                       <small>
-                        Found By ModGamer29#4268, Image By 🍅Tomatech#5591 on Discord
+                        Found by
+                        {' '}
+                        {usernames.modGamer}
+                        , Image by
+                        {' '}
+                        {usernames.tomatech}
                       </small>
                     </figcaption>
                   </figure>
@@ -179,7 +189,9 @@ export default function LogbookItems(page) {
                       Log Item Icons
                       <br />
                       <small>
-                        Found By ModGamer29#4268 on Discord
+                        Found By
+                        {' '}
+                        {usernames.modGamer}
                       </small>
                     </figcaption>
                   </figure>

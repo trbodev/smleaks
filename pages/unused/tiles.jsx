@@ -11,6 +11,7 @@ import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
 import SidebarOverlay from '../../components/SidebarOverlay';
+import usernames from '../../other/usernames';
 
 export const getStaticProps = () => ({
   props: {
@@ -61,7 +62,9 @@ export default function UnusedTiles(page) {
                       Weird Tile (we can&apos;t find the .tile of it)
                       <br />
                       <small>
-                        Found By Turbo Biscuit
+                        Found by
+                        {' '}
+                        {usernames.turbo}
                       </small>
                     </figcaption>
                   </figure>
@@ -144,7 +147,9 @@ export default function UnusedTiles(page) {
                       A lot of Unused Tile Asset Icons
                       <br />
                       <small>
-                        Found By БананоКот#5146 on Discord
+                        Found by
+                        {' '}
+                        {usernames.bananaCat}
                       </small>
                     </figcaption>
                   </figure>

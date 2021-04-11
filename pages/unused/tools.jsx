@@ -11,6 +11,7 @@ import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
 import SidebarOverlay from '../../components/SidebarOverlay';
+import usernames from '../../other/usernames';
 
 export const getStaticProps = () => ({
   props: {
@@ -64,8 +65,9 @@ export default function UnusedTools(page) {
                       )
                       <br />
                       <small>
-                        Found and Rendered By ChargingTurnip#9832 on
-                        Discord
+                        Found and Rendered by
+                        {' '}
+                        {usernames.charging}
                       </small>
                     </figcaption>
                   </figure>
@@ -107,8 +109,12 @@ export default function UnusedTools(page) {
                       Garden Shovel
                       <br />
                       <small>
-                        Found by ChargingTurnip#9832, Image by rockstar modder#8706 on
-                        Discord
+                        Found by
+                        {' '}
+                        {usernames.charging}
+                        , Images by
+                        {' '}
+                        {usernames.rockstar}
                       </small>
                     </figcaption>
                   </figure>

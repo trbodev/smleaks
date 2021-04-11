@@ -10,6 +10,7 @@ import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
 import SidebarOverlay from '../../components/SidebarOverlay';
+import usernames from '../../other/usernames';
 
 export const getStaticProps = () => ({
   props: {
@@ -76,7 +77,9 @@ export default function LogbookGUIs(page) {
                       Log Book GUI
                       <br />
                       <small>
-                        Found By FutureMapper#1337 on Discord
+                        Found by
+                        {' '}
+                        {usernames.futureMapper}
                       </small>
                     </figcaption>
                   </figure>
@@ -94,7 +97,9 @@ export default function LogbookGUIs(page) {
                       Waypoint GUI
                       <br />
                       <small>
-                        Found By FutureMapper#1337 on Discord
+                        Found by
+                        {' '}
+                        {usernames.futureMapper}
                       </small>
                     </figcaption>
                   </figure>
@@ -112,7 +117,9 @@ export default function LogbookGUIs(page) {
                       Log Book GUI Mockup
                       <br />
                       <small>
-                        Created By rockstar modder#8706 on Discord
+                        Created by
+                        {' '}
+                        {usernames.rockstar}
                       </small>
                     </figcaption>
                   </figure>

@@ -11,6 +11,7 @@ import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
 import SidebarOverlay from '../../components/SidebarOverlay';
+import usernames from '../../other/usernames';
 
 export const getStaticProps = () => ({
   props: {
@@ -63,7 +64,9 @@ export default function UnusedTextures(page) {
                       Outfit Package Unused Textures
                       <br />
                       <small>
-                        Found By Turbo Biscuit
+                        Found by
+                        {' '}
+                        {usernames.turbo}
                       </small>
                     </figcaption>
                   </figure>
@@ -82,7 +85,11 @@ export default function UnusedTextures(page) {
                     <figcaption>
                       Dead Duck
                       <br />
-                      <small>Found By Turbo Biscuit</small>
+                      <small>
+                        Found by
+                        {' '}
+                        {usernames.turbo}
+                      </small>
                     </figcaption>
                   </figure>
                   <a id="mechanic-station-billboard" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
@@ -101,7 +108,9 @@ export default function UnusedTextures(page) {
                       Mechanic Station Billboard Unused Alt Texture
                       <br />
                       <small>
-                        Found By Turbo Biscuit
+                        Found by
+                        {' '}
+                        {usernames.turbo}
                       </small>
                     </figcaption>
                   </figure>

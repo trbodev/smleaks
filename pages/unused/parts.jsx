@@ -10,6 +10,7 @@ import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
 import SidebarOverlay from '../../components/SidebarOverlay';
+import usernames from '../../other/usernames';
 
 export const getStaticProps = () => ({
   props: {
@@ -68,8 +69,16 @@ export default function UnusedParts(page) {
                       Plastic Pumpkin
                       <br />
                       <small>
-                        Found by Turbo Biscuit, Files from TechnologicNick#4045,
-                        Rendered by ChargingTurnip#9832
+                        Found by
+                        {' '}
+                        {usernames.turbo}
+                        , Files from
+                        {' '}
+                        {usernames.nick}
+                        ,
+                        Rendered by
+                        {' '}
+                        {usernames.charging}
                       </small>
                     </figcaption>
                   </figure>
@@ -87,7 +96,12 @@ export default function UnusedParts(page) {
                       Piston 2
                       <br />
                       <small>
-                        Found by Turbo Biscuit, Image by IvanCoHe
+                        Found by
+                        {' '}
+                        {usernames.turbo}
+                        , Image by
+                        {' '}
+                        {usernames.ivan}
                       </small>
                     </figcaption>
                   </figure>
