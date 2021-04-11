@@ -109,6 +109,11 @@ export default function UnusedTools(page) {
                       Indestructable Block
                       <br />
                       <small>
+                        &quot;Commented out in 0.1.16, Wasn&apos;t actually irremovable.
+                        It disappeared from the files in 0.2 or earlier.
+                        Nowadays we have a successor to this block called the Framework Block,
+                        it&apos;s used heavily in the warehouses and is permanently encrypted.&quot;
+                        <br />
                         Images by
                         {' '}
                         {usernames.dartFrog}
@@ -155,6 +160,10 @@ export default function UnusedTools(page) {
                       Insulation Block
                       <br />
                       <small>
+                        &quot;Was commented out in the files and removed in 0.2 or earlier
+                        An updated version of this block has been
+                        added to the game in the Survival Update (0.4.0)&quot;
+                        <br />
                         Images by
                         {' '}
                         {usernames.dartFrog}
@@ -198,9 +207,15 @@ export default function UnusedTools(page) {
                     />
                     <br />
                     <figcaption>
-                      Spaceship Block
+                      Beta Spaceship Block
                       <br />
                       <small>
+                        &quot;Was commented out in the files and removed in 0.2 or earlier
+                        Unlike the other 2 commented blocks,
+                        it had no description or name in the inventory,
+                        and it&apos;s preview was larger than all other blocks.
+                        It was officially added to the game in version 0.2.11&quot;
+                        <br />
                         Images by
                         {' '}
                         {usernames.dartFrog}
@@ -220,7 +235,7 @@ export default function UnusedTools(page) {
                     </a>
                     <br />
                     <figcaption>
-                      Insulation Block
+                      Ship Tile
                       <br />
                       <small>
                         Images by
