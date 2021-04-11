@@ -30,4 +30,23 @@ module.exports = withPlugins([
     config.plugins.push(new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /en/));
     return config;
   },
+  async redirects() {
+    return [
+      {
+        source: '/discord',
+        destination: 'https://discord.gg/AsPKp9r',
+        permanent: true,
+      },
+      {
+        source: '/twitter',
+        destination: 'https://twitter.com/scrapbot_',
+        permanent: true,
+      },
+      {
+        source: '/blog',
+        destination: 'https://blog.smleaks.com/',
+        permanent: true,
+      },
+    ];
+  },
 });
