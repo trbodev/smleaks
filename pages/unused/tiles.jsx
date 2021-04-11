@@ -80,10 +80,6 @@ export default function UnusedTiles(page) {
                       style={{ maxWidth: 150, width: '100%' }}
                     />
                     <img
-                      src="https://cdn.discordapp.com/attachments/669212231749206026/770725930921754624/d5a1e852-dde8-43be-94e6-f25ab7d8054a.png"
-                      style={{ maxWidth: 150, width: '100%' }}
-                    />
-                    <img
                       src="https://cdn.discordapp.com/attachments/669212231749206026/770725879424876594/136ac970-c0dd-4f3f-b4e9-10ecfffaf612.png"
                       style={{ maxWidth: 150, width: '100%' }}
                     />
