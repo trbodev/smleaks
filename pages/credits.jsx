@@ -88,6 +88,10 @@ export default function Credits(page) {
                         </li>
                         <li>{usernames.bananaCat}</li>
                         <li>{usernames.modGamer}</li>
+                        <li>{usernames.dartFrog}</li>
+                        <li>{usernames.nothingMod}</li>
+                        <li>{usernames.redBoi}</li>
+                        <li>{usernames.vajdani}</li>
                       </ul>
                       <small>
                         (you have contributed to SMLeaks in any way
