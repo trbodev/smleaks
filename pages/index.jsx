@@ -57,6 +57,9 @@ export default function Home(page) {
                       <a href="/discord">Discord</a>
                     </Link>
                     {' '}
+                    and our
+                    {' '}
+                    <a href="https://blog.smleaks.com">Blog</a>
                     !
                     <br />
                   </article>

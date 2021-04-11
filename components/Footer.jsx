@@ -5,11 +5,18 @@ import {
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
+import { faNewspaper } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
     <nav className="navbar navbar-fixed-bottom">
       <ul className="navbar-nav ml-auto">
+        <li className="nav-item">
+          <a className="nav-link" href="https://blog.smleaks.com">
+            <FontAwesomeIcon icon={faNewspaper} className="mr-5" fixedWidth />
+            Blog
+          </a>
+        </li>
         <li className="nav-item">
           <Link href="/discord">
             <a className="nav-link">
