@@ -14,6 +14,7 @@ import {
   faWindowRestore,
   faLayerGroup,
   faTerminal,
+  faHistory,
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home({ id }) {
@@ -31,6 +32,7 @@ export default function Home({ id }) {
                 ['/unused/textures', 'unused-textures', faImages, 'Textures'],
                 ['/unused/tiles', 'unused-tiles', faLayerGroup, 'Tiles'],
                 ['/unused/particles', 'unused-particles', faHandSparkles, 'Particles'],
+                ['/unused/pre-survival', 'unused-pre-survival', faHistory, 'Pre-Survival', <div className="badge badge-primary" style={{ marginLeft: 8, color: 'rgba(255,255,255,.8)' }}>New!</div>],
               ],
             ],
             [
