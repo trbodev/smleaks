@@ -8,10 +8,11 @@ import {
   faImages,
   faCubes,
   faHandSparkles,
-  faCode,
   faUserPlus,
   faLink,
   faBook,
+  faWindowRestore,
+  faLayerGroup,
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home({ id }) {
@@ -27,7 +28,7 @@ export default function Home({ id }) {
                 ['/unused/tools', 'unused-tools', faTools, 'Tools'],
                 ['/unused/parts', 'unused-parts', faShapes, 'Parts'],
                 ['/unused/textures', 'unused-textures', faImages, 'Textures'],
-                ['/unused/tiles', 'unused-tiles', faCubes, 'Tiles'],
+                ['/unused/tiles', 'unused-tiles', faLayerGroup, 'Tiles'],
                 ['/unused/particles', 'unused-particles', faHandSparkles, 'Particles'],
               ],
             ],
@@ -36,7 +37,7 @@ export default function Home({ id }) {
               [
                 ['/logbook/audio', 'logbook-audio', faMusic, 'Audio'],
                 ['/logbook/items', 'logbook-items', faCubes, 'Items'],
-                ['/logbook/guis', 'logbook-guis', faCode, 'GUIs'],
+                ['/logbook/guis', 'logbook-guis', faWindowRestore, 'GUIs'],
               ],
             ],
             [
