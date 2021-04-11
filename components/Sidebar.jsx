@@ -13,6 +13,7 @@ import {
   faBook,
   faWindowRestore,
   faLayerGroup,
+  faTerminal,
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home({ id }) {
@@ -46,22 +47,23 @@ export default function Home({ id }) {
                 ['/credits', 'credits', faUserPlus, 'Credits'],
                 ['/links', 'links', faLink, 'Links'],
                 ['/devblogs', 'devblogs', faBook, 'Devblogs'],
+                ['/technical-info', 'technical-info', faTerminal, 'Technical Info'],
               ],
             ],
-          ].map((__) => (
+          ].map((group) => (
             <div>
-              <h5 className="sidebar-title">{__[0]}</h5>
+              <h5 className="sidebar-title">{group[0]}</h5>
               <div className="sidebar-divider" />
               {
-              __[1].map((_) => (
-                <Link prefetch={false} href={_[0]}>
+              group[1].map((link) => (
+                <Link prefetch={false} href={link[0]}>
                   <a
-                    className={`sidebar-link sidebar-link-with-icon ${id === _[1] ? ' active' : ''}`}
+                    className={`sidebar-link sidebar-link-with-icon ${id === link[1] ? ' active' : ''}`}
                   >
                     <span className="sidebar-icon">
-                      <FontAwesomeIcon icon={_[2]} fixedWidth />
+                      <FontAwesomeIcon icon={link[2]} fixedWidth />
                     </span>
-                    {_[3]}
+                    {link[3]}
                   </a>
                 </Link>
               ))
