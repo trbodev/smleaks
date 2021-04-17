@@ -5,7 +5,7 @@ module.exports = {
   turbo: 'Turbo Biscuit',
   futureMapper: 'FutureMapper',
   tomatech: '🍅Tomatech',
-  modGamer: 'ModGamer29',
+  modGamer: 'Zero Tsū',
   questionMark: 'Question Mark',
   ivan: 'IvanCoHe',
   bananaCat: 'BananaCat',
@@ -13,5 +13,4 @@ module.exports = {
   redBoi: 'Red Boi',
   vajdani: 'Vajdani',
   nothingMod: 'Nothing Mod (aka Komendowy Muzykant)',
-  lolg: 'Zero Tsū',
 };

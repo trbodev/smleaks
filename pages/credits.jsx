@@ -92,7 +92,6 @@ export default function Credits(page) {
                         <li>{usernames.nothingMod}</li>
                         <li>{usernames.redBoi}</li>
                         <li>{usernames.vajdani}</li>
-                        <li>{usernames.lolg}</li>
                       </ul>
                       <small>
                         (you have contributed to SMLeaks in any way
