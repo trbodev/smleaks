@@ -99,16 +99,10 @@ export default function Home(page) {
                             {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
                           </li>
                           <li>
-                            <a href="https://pages.cloudflare.com/">Cloudflare Pages</a>
-                            {' '}
-                            (Hosting)
-                            {' '}
-                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
-                          </li>
-                          <li>
                             <a href="https://vercel.com">Vercel</a>
                             {' '}
-                            (
+                            (Main &amp;
+                            {' '}
                             <a href="https://dev.smleaks.com">Development Version</a>
                             {' '}
                             Hosting)
