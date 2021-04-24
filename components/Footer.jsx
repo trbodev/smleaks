@@ -15,7 +15,6 @@ export default function Home() {
           <a className="nav-link" href="https://blog.smleaks.com">
             <FontAwesomeIcon icon={faNewspaper} className="mr-5" fixedWidth />
             Blog
-            <div className="badge badge-primary" style={{ marginLeft: 8, color: 'rgba(255,255,255,.8)' }}>New!</div>
           </a>
         </li>
         <li className="nav-item">

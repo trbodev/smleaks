@@ -32,7 +32,7 @@ export default function Home({ id }) {
                 ['/unused/textures', 'unused-textures', faImages, 'Textures'],
                 ['/unused/tiles', 'unused-tiles', faLayerGroup, 'Tiles'],
                 ['/unused/particles', 'unused-particles', faHandSparkles, 'Particles'],
-                ['/unused/pre-survival', 'unused-pre-survival', faHistory, 'Pre-Survival', <div className="badge badge-primary" style={{ marginLeft: 8, color: 'rgba(255,255,255,.8)' }}>New!</div>],
+                ['/unused/pre-survival', 'unused-pre-survival', faHistory, 'Pre-Survival'],
               ],
             ],
             [
@@ -49,7 +49,7 @@ export default function Home({ id }) {
                 ['/credits', 'credits', faUserPlus, 'Credits'],
                 ['/links', 'links', faLink, 'Links'],
                 ['/devblogs', 'devblogs', faBook, 'Devblogs'],
-                ['/technical-info', 'technical-info', faTerminal, 'Technical Info', <div className="badge badge-primary" style={{ marginLeft: 8, color: 'rgba(255,255,255,.8)' }}>New!</div>],
+                ['/technical-info', 'technical-info', faTerminal, 'Technical Info'],
               ],
             ],
           ].map((group) => (

@@ -5,7 +5,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import { useState } from 'react';
 import { isMobile } from 'react-device-detect';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Header from '../../components/Header';
 import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
