@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "clean": "rm -rf .next"
+    "clean": "rm -rf .next",
+    "build_skip": "chmod +x ./scripts/build-skip.sh; ./scripts/build-skip.sh"
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.1.2",
