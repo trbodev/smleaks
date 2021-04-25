@@ -115,7 +115,7 @@ export default function UnusedTiles(page) {
                     }
 
                     <figcaption>
-                      A lot of Unused Tile Asset Icons
+                      Hidden Node Icons
                       <br />
                       <small>
                         Found by
