@@ -49,4 +49,12 @@ module.exports = withPlugins([
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: '/arc-sw.js',
+        destination: 'https://arc.io/arc-sw.js',
+      },
+    ];
+  },
 });
