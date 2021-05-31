@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import LiveViewers from './LiveViewers';
 
 // eslint-disable-next-line import/no-unresolved
 import Logo from '../public/images/logfiles/image.png?webp&width=44';
@@ -28,6 +29,11 @@ export default function Home({
           <span className="d-none d-sm-flex">SMLeaks</span>
         </a>
       </Link>
+      {process.env.NEXT_PUBLIC_VIEWERS === 'true' ? (
+        <div className="navbar-content d-md-flex ml-auto">
+          <LiveViewers />
+        </div>
+      ) : <></>}
     </nav>
   );
 }

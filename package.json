@@ -23,13 +23,14 @@
     "next-google-fonts": "^2.0.0",
     "next-optimized-images": "3.0.0-canary.10",
     "next-plugin-preact": "^3.0.3",
-    "react-device-detect": "^1.17.0",
-    "react-lazy-load-image-component": "^1.5.1",
-    "react": "npm:@preact/compat@0.0.3",
-    "react-dom": "npm:@preact/compat@0.0.3",
+    "nextjs-websocket": "^1.0.2",
     "preact": "^10.5.5",
     "preact-render-to-string": "^5.1.11",
-    "react-ssr-prepass":"npm:preact-ssr-prepass"
+    "react": "npm:@preact/compat@0.0.3",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "npm:@preact/compat@0.0.3",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-ssr-prepass": "npm:preact-ssr-prepass"
   },
   "devDependencies": {
     "eslint": "^7.21.0",
