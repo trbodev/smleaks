@@ -27,7 +27,7 @@ export default function Header({
       <meta name="theme-color" content="#E67E22" />
       <meta name="msapplication-navbutton-color" content="#E67E22" />
       <meta name="apple-mobile-web-app-status-bar-style" content="#E67E22" />
-      <link rel="icon" href={Logo} />
+      <link rel="icon" href={Logo.toString()} />
       <title>{title}</title>
       {process.env.NEXT_PUBLIC_ARC_IO_ENABLED === 'true' ? <script async src={`https://arc.io/widget.min.js#${process.env.NEXT_PUBLIC_ARC_IO_ID}`} /> : null}
       {process.env.NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_ENABLED === 'true' ? <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${process.env.NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN}", "spa": true}`} /> : null}
