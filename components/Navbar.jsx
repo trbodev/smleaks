@@ -25,7 +25,7 @@ export default function Home({
       </div>
       <Link prefetch={false} href="/">
         <a href="/" className="navbar-brand ml-10 ml-sm-20">
-          <img src={Logo} alt="logo" />
+          <img src={Logo.toString()} alt="logo" />
           <span className="d-none d-sm-flex">SMLeaks</span>
         </a>
       </Link>
