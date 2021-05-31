@@ -4,9 +4,10 @@ import Head from 'next/head';
 import Logo from '../public/images/logfiles/image.png?width=32';
 import LogoFull from '../public/images/logfiles/image.png?url';
 
-export default function Header(opts) {
-  const image = opts.image || {};
-  const title = `SMLeaks | ${opts.title}`;
+export default function Header({
+  image = {}, title: titleOG, type, description,
+}) {
+  const title = `SMLeaks | ${titleOG}`;
   return (
     <Head>
       <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -15,13 +16,13 @@ export default function Header(opts) {
         name="viewport"
       />
       <meta name="keywords" content="Scrap Mechanic, Video Game Leaks" />
-      <meta property="og:type" content={opts.type || 'website'} />
+      <meta property="og:type" content={type || 'website'} />
       <meta property="og:url" content="https://smleaks.com" />
       <meta property="og:title" content={title} />
-      <meta property="og:description" content={opts.description || 'Community run leaking website for Scrap Mechanic'} />
-      <meta name="description" content={opts.description || 'Community run leaking website for Scrap Mechanic'} />
-      {image.enabled === false ? <></> : <meta property="og:image" content={`https://${process.env.NEXT_PUBLIC_DOMAIN}${image.url || LogoFull.toString()}`} />}
-      {image.enabled === false ? <></> : <meta property="twitter:image" content={`https://${process.env.NEXT_PUBLIC_DOMAIN}${image.url || LogoFull.toString()}`} />}
+      <meta property="og:description" content={description || 'Community run leaking website for Scrap Mechanic'} />
+      <meta name="description" content={description || 'Community run leaking website for Scrap Mechanic'} />
+      {image.enabled === false ? <></> : <meta property="og:image" content={`http${process.env.NEXT_PUBLIC_DOMAIN_SECURE === 'true' ? 's' : ''}://${process.env.NEXT_PUBLIC_DOMAIN}${image.url || LogoFull.toString()}`} />}
+      {image.enabled === false ? <></> : <meta property="twitter:image" content={`http${process.env.NEXT_PUBLIC_DOMAIN_SECURE === 'true' ? 's' : ''}://${process.env.NEXT_PUBLIC_DOMAIN}${image.url || LogoFull.toString()}`} />}
       {image.enabled === false || !image.large ? <></> : <meta name="twitter:card" content="summary_large_image" />}
       <meta name="theme-color" content="#E67E22" />
       <meta name="msapplication-navbutton-color" content="#E67E22" />
