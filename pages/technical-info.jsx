@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { isMobile } from 'react-device-detect';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
@@ -122,6 +121,7 @@ export default function Home(page) {
                                     'next-google-fonts',
                                     'next-optimized-images',
                                     'next-plugin-preact',
+                                    'nextjs-websocket',
                                     'react-device-detect',
                                     'react-lazy-load-image-component',
                                     '@badrap/bar-of-progress',
@@ -137,27 +137,10 @@ export default function Home(page) {
                         </ul>
                       </li>
                       <li>
-                        <b><a href="https://blog.smleaks.com/">Blog</a></b>
-                        <ul style={{ marginTop: 8, marginBottom: 0 }}>
-                          <li>
-                            <a href="https://ghost.org/">Ghost CMS</a>
-                            {' '}
-                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Open Source</div> : null}
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
                         <b><a href="https://status.smleaks.com/">Status Page</a></b>
                         <ul style={{ marginTop: 8, marginBottom: 0 }}>
                           <li>
                             <a href="https://instatus.com/">Instatus</a>
-                            {' '}
-                            {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
-                          </li>
-                          <li>
-                            <a href="https://uptimerobot.com/">UptimeRobot</a>
-                            {' '}
-                            (Automated Status Check)
                             {' '}
                             {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Free &amp; Paid Options</div> : null}
                           </li>
@@ -209,14 +192,6 @@ export default function Home(page) {
                             <a href="https://contabo.com">Contabo</a>
                             {' '}
                             (VPS Hosting)
-                            <a href="#contabo-notice">
-                              <FontAwesomeIcon
-                                icon={faInfoCircle}
-                                style={{
-                                  marginLeft: 5,
-                                }}
-                              />
-                            </a>
                             {' '}
                             {showPricing ? <div className="badge badge-primary" style={{ color: 'rgba(255,255,255,.8)' }}>Paid Only</div> : null}
                           </li>
@@ -284,25 +259,6 @@ export default function Home(page) {
                       </div>
                     </div>
                     <br />
-                    <a id="contabo-notice" href="#" style={{ visibility: 'hidden' }} aria-hidden="true" />
-                    <div
-                      className="alert"
-                      style={{
-                        backgroundColor: '#302c19',
-                        backgroundImage: 'none',
-                        borderColor: '#8c790e',
-                      }}
-                    >
-                      <h6 className="alert-heading">
-                        <b>
-                          Important Note for Contabo:
-                        </b>
-                      </h6>
-                      I don&apos;t reccomend using Contabo because their Privacy Policy
-                      is pretty vague on what they do with the data
-                      you stored on your servers after you stop using them.
-                      (I only use them because I&apos;m basically broke)
-                    </div>
                   </article>
                 </div>
               </div>
