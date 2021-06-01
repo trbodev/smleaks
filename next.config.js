@@ -42,11 +42,6 @@ module.exports = withPlugins([
         destination: 'https://twitter.com/scrapbot_',
         permanent: true,
       },
-      {
-        source: '/blog',
-        destination: 'https://blog.smleaks.com/',
-        permanent: true,
-      },
     ];
   },
   async rewrites() {
