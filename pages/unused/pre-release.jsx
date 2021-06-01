@@ -68,9 +68,12 @@ export default function UnusedPreRelease() {
             Mechanical Block
             <br />
             <small>
-              Image by
+              Found by
               {' '}
               {usernames.dartFrog}
+              , Images by
+              {' '}
+              {usernames.redBoi}
             </small>
           </figcaption>
         </figure>
@@ -95,9 +98,9 @@ export default function UnusedPreRelease() {
             Tiled Red Metal
             <br />
             <small>
-              Image by
+              Found by
               {' '}
-              {usernames.dartFrog}
+              {usernames.redBoi}
             </small>
           </figcaption>
         </figure>
@@ -122,9 +125,12 @@ export default function UnusedPreRelease() {
             Super Heavy Concrete
             <br />
             <small>
-              Image by
+              Found by
               {' '}
               {usernames.dartFrog}
+              , Images by
+              {' '}
+              {usernames.redBoi}
             </small>
           </figcaption>
         </figure>
@@ -149,9 +155,12 @@ export default function UnusedPreRelease() {
             Strong Steel
             <br />
             <small>
-              Image by
+              Found by
               {' '}
               {usernames.dartFrog}
+              , Images by
+              {' '}
+              {usernames.redBoi}
             </small>
           </figcaption>
         </figure>
@@ -176,9 +185,12 @@ export default function UnusedPreRelease() {
             Super Strong Steel
             <br />
             <small>
-              Image by
+              Found by
               {' '}
               {usernames.dartFrog}
+              , Images by
+              {' '}
+              {usernames.redBoi}
             </small>
           </figcaption>
         </figure>
@@ -203,9 +215,12 @@ export default function UnusedPreRelease() {
             Ice
             <br />
             <small>
-              Image by
+              Found by
               {' '}
               {usernames.dartFrog}
+              , Images by
+              {' '}
+              {usernames.redBoi}
             </small>
           </figcaption>
         </figure>
@@ -230,9 +245,12 @@ export default function UnusedPreRelease() {
             Coal
             <br />
             <small>
-              Image by
+              Found by
               {' '}
               {usernames.dartFrog}
+              , Images by
+              {' '}
+              {usernames.redBoi}
             </small>
           </figcaption>
         </figure>
@@ -257,9 +275,12 @@ export default function UnusedPreRelease() {
             Copper
             <br />
             <small>
-              Image by
+              Found by
               {' '}
               {usernames.dartFrog}
+              , Images by
+              {' '}
+              {usernames.redBoi}
             </small>
           </figcaption>
         </figure>
@@ -284,7 +305,7 @@ export default function UnusedPreRelease() {
             Galvanized Metal
             <br />
             <small>
-              Image by
+              Found by
               {' '}
               {usernames.redBoi}
             </small>
@@ -311,9 +332,12 @@ export default function UnusedPreRelease() {
             Taped Plaster
             <br />
             <small>
-              Image by
+              Found by
               {' '}
               {usernames.dartFrog}
+              , Images by
+              {' '}
+              {usernames.redBoi}
             </small>
           </figcaption>
         </figure>
