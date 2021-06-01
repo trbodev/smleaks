@@ -42,6 +42,11 @@ module.exports = withPlugins([
         destination: 'https://twitter.com/scrapbot_',
         permanent: true,
       },
+      {
+        source: '/devblog/:slug(\\d{1,})',
+        destination: '/devblogs',
+        permanent: false,
+      },
     ];
   },
   async rewrites() {
