@@ -71,6 +71,7 @@ export default function Credits(page) {
                             {usernames.nick}
 
                           </a>
+                          {' '}
                           - Found the files for the
                           {' '}
                           <Link href="/unused/parts#plastic-pumpkin"><a href="/unused/parts#plastic-pumpkin">Plastic Pumpkin</a></Link>
