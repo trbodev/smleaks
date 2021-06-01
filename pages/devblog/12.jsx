@@ -109,7 +109,7 @@ export default function Devblog12(page) {
                     <b>Greetings Mechanics!</b>
                     <br />
                     What’s
-                    that coming over the hill? Is it a dev blog? Why yes, it most
+                    that coming over the hill? Is it a devblog? Why yes, it most
                     certainly is!
                     <br />
                     Some time has passed since our last post
@@ -279,7 +279,7 @@ export default function Devblog12(page) {
                     With new features comes new animation!
                     <br />
                     Since the
-                    last dev blog we’ve been quietly working on fresh animations
+                    last devblog we’ve been quietly working on fresh animations
                     to improve the quality of Survival Mode. Included in our list
                     of revamps is the completely rebuilt crouch walk animation, a
                     revamped hammer swing animation and an awesome new sprint,
@@ -320,7 +320,7 @@ export default function Devblog12(page) {
                     Crafting System will be something a lot of you mechanics will
                     really appreciate and use to light your creative spark. It’s
                     only code right now, but we should have some visuals to show
-                    you by the time the next dev blog rolls around. We’re very
+                    you by the time the next devblog rolls around. We’re very
                     excited!
                     <br />
                     <br />

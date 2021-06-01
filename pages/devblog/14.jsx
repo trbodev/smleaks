@@ -112,7 +112,7 @@ export default function Devblog14(page) {
                     <br />
                     Hear that rumbling noise? Nope, the washing
                     machine isn’t on the blink again, it’s an all-new,
-                    all-pulsating Scrap Mechanic Dev Blog – and it’s coming right
+                    all-pulsating Scrap Mechanic Devblog – and it’s coming right
                     for you!
                     <br />
                     First – putting this runaway train in to park

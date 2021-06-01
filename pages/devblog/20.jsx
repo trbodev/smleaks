@@ -418,7 +418,7 @@ export default function Devblog20(page) {
                     Mechanics but remember: this is a just a sneak peek into the
                     mother load of content that the next chapter is going to
                     contain. The devs have a lot more irons in the fire and
-                    they’ll be bringing them out in the following dev blog, so
+                    they’ll be bringing them out in the following devblog, so
                     stick around for more awesome news.
                     <br />
                     <br />

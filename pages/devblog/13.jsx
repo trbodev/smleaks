@@ -111,7 +111,7 @@ export default function Devblog13(page) {
                     </b>
                     <br />
                     It’s been a little while since we last parked our
-                    construction diggers to publish a dev blog, but we intend to
+                    construction diggers to publish a devblog, but we intend to
                     step things up a gear in future starting with this, the first
                     in a revamped and polution-free series of updates, intended to
                     keep you even more up to date with developments and community
@@ -179,7 +179,7 @@ export default function Devblog13(page) {
                       - Adjust Your Arsenal
                     </b>
                     <br />
-                    In our last dev blog we showed off the Spud Gun for the
+                    In our last devblog we showed off the Spud Gun for the
                     very first time. Since then we’ve had a ton of great feedback
                     from the community, including many requests for our latest
                     firepower feature; modular weapons!

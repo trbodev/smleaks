@@ -40,17 +40,17 @@ module.exports = {
     date: '7/11/2018',
   },
   devblog14: {
-    description: 'Hear that rumbling noise? Nope, the washing machine isn’t on the blink again, it’s an all-new, all-pulsating Scrap Mechanic Dev Blog – and it’s coming right for you!',
+    description: 'Hear that rumbling noise? Nope, the washing machine isn’t on the blink again, it’s an all-new, all-pulsating Scrap Mechanic Devblog – and it’s coming right for you!',
     url: 'https://steamcommunity.com/games/387990/announcements/detail/1661138371516554878',
     date: '3/9/2018',
   },
   devblog13: {
-    description: 'It’s been a little while since we last parked our construction diggers to publish a dev blog, but we intend to step things up a gear in future starting with this, the first in a revamped and polution-free series of updates, intended to keep you even more up to date with developments and community trends in the world of Scrap Mechanic!',
+    description: 'It’s been a little while since we last parked our construction diggers to publish a devblog, but we intend to step things up a gear in future starting with this, the first in a revamped and polution-free series of updates, intended to keep you even more up to date with developments and community trends in the world of Scrap Mechanic!',
     url: 'https://steamcommunity.com/games/387990/announcements/detail/2817427916047053618',
     date: '11/21/2017',
   },
   devblog12: {
-    description: 'What’s that coming over the hill? Is it a dev blog? Why yes, it most certainly is!',
+    description: 'What’s that coming over the hill? Is it a devblog? Why yes, it most certainly is!',
     url: 'https://steamcommunity.com/games/387990/announcements/detail/1438192434392958122',
     date: '8/26/2017',
   },
