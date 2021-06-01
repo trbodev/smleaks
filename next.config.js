@@ -12,6 +12,7 @@ module.exports = withPlugins([
         handleImages: ['png', 'webp', 'jpeg'],
         outputPath: 'static/images/',
         publicPath: '/_next/static/images/',
+        cacheFolder: '.next/cache/next-optimized-images/',
       },
     },
   ],
