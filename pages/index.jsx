@@ -52,7 +52,7 @@ export default function Home(page) {
                     <a href="https://trbo.sh">{usernames.turbo}</a>
                     .
                     <br />
-                    You can also check out the
+                    You can also check out our
                     {' '}
                     <Link href="/discord">
                       <a href="/discord">Discord</a>
