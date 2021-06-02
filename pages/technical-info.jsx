@@ -30,7 +30,7 @@ export default function TechnicalInfo() {
                 className="badge badge-sm badge-primary"
                 style={{ marginRight: 10 }}
               >
-                v2.2.0
+                v3.0.0
               </div>
               <a href="https://github.com/TurboBiscuit/smleaks">
                 <div className="badge badge-sm">
