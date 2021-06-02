@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-// import moment from 'moment';
-// import Link from 'next/link';
-// import devblogs from '../other/devblog_descriptions';
+import moment from 'moment';
+import Link from 'next/link';
+import devblogs from '../other/devblog_descriptions';
 
 export const getStaticProps = () => ({
   props: {
@@ -18,8 +18,7 @@ export default function Devblogs() {
         <h1 className="content-title">Devblogs</h1>
       </div>
       <div className="card">
-        Disabled for redesign
-        {/* <ul>
+        <ul>
           {Object.keys(devblogs)
             .map((e) => e.replace('devblog', ''))
             .sort((a, b) => b - a)
@@ -28,7 +27,7 @@ export default function Devblogs() {
               return (
                 <li id={`devblog-${devblogId}`} key={`devblog-${devblogId}`}>
                   <Link prefetch={false} href={`/devblog/${devblogId}`}>
-                    <a id={`devblog-${devblogId}`} style={{ marginLeft: -10 }}>
+                    <a id={`devblog-${devblogId}`}>
                       Devblog
                       {' '}
                       {devblogId}
@@ -52,7 +51,7 @@ export default function Devblogs() {
                 </li>
               );
             })}
-        </ul> */}
+        </ul>
       </div>
     </div>
   );
