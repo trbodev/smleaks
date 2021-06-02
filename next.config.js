@@ -12,6 +12,7 @@ module.exports = withPlugins([
         handleImages: ['png', 'webp', 'jpeg'],
         outputPath: 'static/images/',
         publicPath: '/_next/static/images/',
+        cacheFolder: '.next/cache/next-optimized-images/',
       },
     },
   ],
@@ -42,11 +43,6 @@ module.exports = withPlugins([
         destination: 'https://twitter.com/scrapbot_',
         permanent: true,
       },
-      {
-        source: '/blog',
-        destination: 'https://blog.smleaks.com/',
-        permanent: true,
-      },
     ];
   },
   async rewrites() {
@@ -55,6 +51,40 @@ module.exports = withPlugins([
         source: '/arc-sw.js',
         destination: 'https://arc.io/arc-sw.js',
       },
+    ];
+  },
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'Content-Security-Policy',
+            value: 'upgrade-insecure-requests',
+          },
+          {
+            key: 'Strict-Transport-Security',
+            value: 'max-age=31536000; includeSubDomains;  preload',
+          },
+          {
+            key: 'X-Xss-Protection',
+            value: '1; mode=block',
+          },
+          {
+            key: 'X-Frame-Options',
+            value: 'SAMEORIGIN',
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'strict-origin-when-cross-origin',
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+        ],
+      },
+
     ];
   },
 });

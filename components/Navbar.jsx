@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import LiveViewers from './LiveViewers';
 
 // eslint-disable-next-line import/no-unresolved
 import Logo from '../public/images/logfiles/image.png?webp&width=44';
@@ -24,10 +25,16 @@ export default function Home({
       </div>
       <Link prefetch={false} href="/">
         <a href="/" className="navbar-brand ml-10 ml-sm-20">
-          <img src={Logo} alt="logo" />
+          <img src={Logo.toString()} alt="logo" />
           <span className="d-none d-sm-flex">SMLeaks</span>
+          {process.env.NEXT_PUBLIC_DOMAIN_DEV === 'true' ? <span className="badge badge-gray" style={{ marginLeft: 6 }}>Development</span> : <></>}
         </a>
       </Link>
+      {process.env.NEXT_PUBLIC_VIEWERS === 'true' ? (
+        <div className="navbar-content d-md-flex ml-auto">
+          <LiveViewers />
+        </div>
+      ) : <></>}
     </nav>
   );
 }
