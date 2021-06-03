@@ -29,8 +29,9 @@ export default function Header({
       <meta name="apple-mobile-web-app-status-bar-style" content="#E67E22" />
       <link rel="icon" href={Logo.toString()} />
       <title>{title}</title>
-      {process.env.NEXT_PUBLIC_ARC_IO_ENABLED === 'true' ? <script async src={`https://arc.io/widget.min.js#${process.env.NEXT_PUBLIC_ARC_IO_ID}`} /> : null}
-      {process.env.NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_ENABLED === 'true' ? <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${process.env.NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN}", "spa": true}`} /> : null}
+      {process.env.NEXT_PUBLIC_ARC_IO_ENABLED === 'true' ? <script async src={`https://arc.io/widget.min.js#${process.env.NEXT_PUBLIC_ARC_IO_ID}`} /> : <></>}
+      {process.env.NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_ENABLED === 'true' ? <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${process.env.NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN}", "spa": true}`} /> : <></>}
+      {process.env.NEXT_PUBLIC_UMAMI_ANALYTICS_ENABLED === 'true' ? <script async defer data-website-id={process.env.NEXT_PUBLIC_UMAMI_ANALYTICS_ID} src={`http${process.env.NEXT_PUBLIC_UMAMI_ANALYTICS_DOMAIN_SECURE === 'true' ? 's' : ''}://${process.env.NEXT_PUBLIC_UMAMI_ANALYTICS_DOMAIN}/umami.js`} /> : <></>}
       <link rel="preconnect" href="https://i.imgur.com" />
       <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
       <link rel="preconnect" href="https://static.cloudflareinsights.com" />
