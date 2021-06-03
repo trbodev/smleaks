@@ -82,6 +82,10 @@ module.exports = withPlugins([
             key: 'X-Content-Type-Options',
             value: 'nosniff',
           },
+          {
+            key: 'Permissions-Policy',
+            value: 'interest-cohort=()',
+          },
         ],
       },
 
