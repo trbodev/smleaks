@@ -222,6 +222,34 @@ export default function TechnicalInfo() {
                   ) : null}
                 </li>
                 <li>
+                  <a href="https://railway.app/">Railway</a>
+                  {' '}
+                  (Infrastructure Hosting)
+                  {' '}
+                  {showPricing ? (
+                    <div
+                      className="badge badge-primary"
+                      style={{ color: 'rgba(255,255,255,.8)' }}
+                    >
+                      Free &amp; Paid Options
+                    </div>
+                  ) : null}
+                </li>
+                <li>
+                  <a href="https://umami.is/">Umami</a>
+                  {' '}
+                  (Web Analytics)
+                  {' '}
+                  {showPricing ? (
+                    <div
+                      className="badge badge-primary"
+                      style={{ color: 'rgba(255,255,255,.8)' }}
+                    >
+                      Free &amp; Open Source
+                    </div>
+                  ) : null}
+                </li>
+                <li>
                   <a href="https://contabo.com">Contabo</a>
                   {' '}
                   (VPS Hosting)
