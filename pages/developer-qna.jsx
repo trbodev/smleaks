@@ -76,8 +76,6 @@ export default function DeveloperQandA(page) {
           We have focused on your most commonly asked questions, as well as a few fun ones.
           Let us know if you would like us to do these Q&amp;As
           from time to time in the comments below.
-          <br />
-          <br />
           {
             [
               [
@@ -160,6 +158,9 @@ export default function DeveloperQandA(page) {
               ],
             ].map((group) => (
               <>
+                <br />
+                <br />
+                <br />
                 <b style={{ textDecoration: 'underline' }}>{group[0]}</b>
                 {
                   group[1].map(([q, a]) => (
