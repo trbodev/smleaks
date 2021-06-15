@@ -16,6 +16,7 @@ import {
   faTerminal,
   faHistory,
   faUnlockAlt,
+  faQuestion,
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home({ id }) {
@@ -50,6 +51,7 @@ export default function Home({ id }) {
               [
                 ['/credits', 'credits', faUserPlus, 'Credits'],
                 ['/links', 'links', faLink, 'Links'],
+                ['/developer-qna', 'developer-qna', faQuestion, 'Developer Q&A'],
                 ['/devblogs', 'devblogs', faBook, 'Devblogs'],
                 ['/technical-info', 'technical-info', faTerminal, 'Technical Info'],
               ],
