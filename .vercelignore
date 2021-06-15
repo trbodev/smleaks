@@ -1,0 +1,6 @@
+/.github
+/.vscode
+.eslintrc.json
+.env.example
+.gitignore
+README.md
