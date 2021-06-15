@@ -2,6 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faDiscord,
+  faGithub,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
@@ -11,6 +12,14 @@ export default function Home() {
   return (
     <nav className="navbar navbar-fixed-bottom">
       <ul className={`navbar-nav ${isMobile ? '' : 'ml-auto'}`}>
+        <li className="nav-item">
+          <Link href="/github">
+            <a className="nav-link">
+              <FontAwesomeIcon icon={faGithub} className={isMobile ? 'mr-2' : 'mr-5'} fixedWidth />
+              {isMobile ? '' : 'Github'}
+            </a>
+          </Link>
+        </li>
         <li className="nav-item">
           <Link href="/discord">
             <a className="nav-link">

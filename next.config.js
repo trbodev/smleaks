@@ -43,6 +43,11 @@ module.exports = withPlugins([
         destination: 'https://twitter.com/scrapbot_',
         permanent: true,
       },
+      {
+        source: '/github',
+        destination: 'https://github.com/TurboBiscuit/smleaks',
+        permanent: true,
+      },
     ];
   },
   async rewrites() {
