@@ -26,7 +26,7 @@ export default function Devblogs() {
               const devblog = devblogs[`devblog${devblogId}`];
               return (
                 <li id={`devblog-${devblogId}`} key={`devblog-${devblogId}`}>
-                  <Link prefetch={false} href={`/devblog/${devblogId}`}>
+                  <Link scroll prefetch={false} href={`/devblog/${devblogId}`}>
                     <a id={`devblog-${devblogId}`}>
                       Devblog
                       {' '}

@@ -164,7 +164,7 @@ export default function Devblog22(page) {
           <br />
           In
           {' '}
-          <Link href="/devblog/20">
+          <Link scroll href="/devblog/20" prefetch={false}>
             <a href="/devblog/20">Devblog 20</a>
           </Link>
           {' '}

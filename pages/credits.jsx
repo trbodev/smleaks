@@ -36,7 +36,7 @@ export default function Credits() {
                 {' '}
                 - Rendered the
                 {' '}
-                <Link href="/logbook/items#logbook-items">
+                <Link scroll href="/logbook/items#logbook-items" prefetch={false}>
                   <a href="/logbook/items#logbook-items">SMLeaks Logo</a>
                 </Link>
               </li>
@@ -47,7 +47,7 @@ export default function Credits() {
                 {' '}
                 - Found the files for the
                 {' '}
-                <Link href="/unused/parts#plastic-pumpkin">
+                <Link scroll href="/unused/parts#plastic-pumpkin" prefetch={false}>
                   <a href="/unused/parts#plastic-pumpkin">Plastic Pumpkin</a>
                 </Link>
               </li>

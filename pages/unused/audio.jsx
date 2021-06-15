@@ -58,7 +58,7 @@ export default function UnusedAudio() {
         <a id="caves" href="#" style={{ visibility: 'hidden' }} />
         Caves? (Has been confirmed in
         {' '}
-        <Link prefetch={false} href="/devblog/20#underground">
+        <Link scroll prefetch={false} href="/devblog/20#underground">
           <a href="/devblog/20#underground">Devblog 20</a>
         </Link>
         )
@@ -92,7 +92,7 @@ export default function UnusedAudio() {
         Digital
         Clock Alarms (Possibly from
         {' '}
-        <Link href="/devblog/21#digital-clock">
+        <Link scroll href="/devblog/21#digital-clock" prefetch={false}>
           <a href="/devblog/21#digital-clock">Devblog 21</a>
         </Link>
         )

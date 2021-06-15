@@ -106,7 +106,7 @@ export default function UnusedParts() {
           <figcaption>
             Survival Car Parts (From
             {' '}
-            <Link href="/devblog/7#survival-cars">
+            <Link scroll href="/devblog/7#survival-cars" prefetch={false}>
               <a href="/devblog/7#survival-cars">Devblog 7</a>
             </Link>
             )

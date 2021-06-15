@@ -17,18 +17,16 @@ export default function Home() {
           isMobile
             ? <></> : (
               <li className="nav-item">
-                <Link href="https://github.com/TurboBiscuit/smleaks/issues/new?assignees=&labels=new+leaks&template=submit-leaked-content.md&title=">
-                  <a className="nav-link">
-                    <FontAwesomeIcon icon={faCloudUploadAlt} className={isMobile ? 'mr-2' : 'mr-5'} fixedWidth />
-                    {isMobile ? '' : 'Submit Leaks'}
-                  </a>
-                </Link>
+                <a className="nav-link" href="https://github.com/TurboBiscuit/smleaks/issues/new?assignees=&labels=new+leaks&template=submit-leaked-content.md&title=">
+                  <FontAwesomeIcon icon={faCloudUploadAlt} className={isMobile ? 'mr-2' : 'mr-5'} fixedWidth />
+                  {isMobile ? '' : 'Submit Leaks'}
+                </a>
               </li>
             )
         }
 
         <li className="nav-item">
-          <Link href="/github">
+          <Link scroll href="/github">
             <a className="nav-link">
               <FontAwesomeIcon icon={faGithub} className={isMobile ? 'mr-2' : 'mr-5'} fixedWidth />
               {isMobile ? '' : 'Github'}
@@ -36,7 +34,7 @@ export default function Home() {
           </Link>
         </li>
         <li className="nav-item">
-          <Link href="/discord">
+          <Link scroll href="/discord">
             <a className="nav-link">
               <FontAwesomeIcon icon={faDiscord} className={isMobile ? 'mr-2 ml-5' : 'mr-5'} fixedWidth />
               {isMobile ? '' : 'Discord'}
@@ -44,7 +42,7 @@ export default function Home() {
           </Link>
         </li>
         <li className="nav-item">
-          <Link href="/twitter">
+          <Link scroll href="/twitter">
             <a className="nav-link">
               <FontAwesomeIcon icon={faTwitter} className={isMobile ? 'mr-2' : 'mr-5'} fixedWidth />
               {isMobile ? '' : 'Twitter'}

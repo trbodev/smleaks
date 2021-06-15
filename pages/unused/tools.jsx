@@ -33,7 +33,7 @@ export default function UnusedTools() {
           <figcaption>
             Lift Remote - (Mentioned in
             {' '}
-            <Link href="/devblog/17#new-lift-concept"><a href="/devblog/17#new-lift-concept">Devblog 17</a></Link>
+            <Link scroll href="/devblog/17#new-lift-concept" prefetch={false}><a href="/devblog/17#new-lift-concept">Devblog 17</a></Link>
             )
             <br />
             <small>

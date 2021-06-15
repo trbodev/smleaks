@@ -16,7 +16,7 @@ export default function FourOhFour() {
       </div>
       <div className="card">
         <h2 className="card-title">Seems like you&apos;re a bit lost!</h2>
-        <Link prefetch={false} href="/">
+        <Link scroll prefetch={false} href="/">
           <a href="/">
             <button className="btn btn-primary btn-sm" type="button">
               Go Home

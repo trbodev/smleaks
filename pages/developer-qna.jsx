@@ -92,7 +92,7 @@ export default function DeveloperQandA(page) {
                       <>
                         The scrapyard biome shown in
                         {' '}
-                        <Link href="/devblog/13">Devblog 13</Link>
+                        <Link scroll href="/devblog/13" prefetch={false}>Devblog 13</Link>
                         {' '}
                         is not really scrapped, but it is put on hold for now.
                         The reason is that we took the story in a more interesting
@@ -184,7 +184,7 @@ export default function DeveloperQandA(page) {
                       <>
                         You mentioned an exosuit in
                         {' '}
-                        <Link href="/devblog/12">Devblog 12</Link>
+                        <Link scroll href="/devblog/12" prefetch={false}>Devblog 12</Link>
                         {' '}
                         that gave you minor perks.
                         Was that scrapped, or will it be implemented in the next chapter?

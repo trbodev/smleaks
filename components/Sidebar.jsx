@@ -62,7 +62,7 @@ export default function Home({ id }) {
               <div className="sidebar-divider" />
               {
               group[1].map((link) => (
-                <Link prefetch={false} href={link[0]}>
+                <Link scroll prefetch={false} href={link[0]}>
                   <a
                     className={`sidebar-link sidebar-link-with-icon ${id === link[1] ? ' active' : ''}`}
                   >

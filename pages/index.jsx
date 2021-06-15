@@ -31,7 +31,7 @@ export default function Home() {
           <br />
           You can also check out our
           {' '}
-          <Link href="/discord">
+          <Link scroll href="/discord" prefetch={false}>
             <a href="/discord">Discord</a>
           </Link>
           !

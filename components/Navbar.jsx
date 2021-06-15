@@ -23,7 +23,7 @@ export default function Home({
           <FontAwesomeIcon icon={faBars} fixedWidth aria-hidden="true" />
         </button>
       </div>
-      <Link prefetch={false} href="/">
+      <Link scroll prefetch={false} href="/">
         <a href="/" className="navbar-brand ml-10 ml-sm-20">
           <img src={Logo.toString()} alt="logo" />
           <span className="d-none d-sm-flex">SMLeaks</span>
