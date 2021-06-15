@@ -35,7 +35,7 @@ export default function Home({ id }) {
                 ['/unused/tiles', 'unused-tiles', faLayerGroup, 'Tiles'],
                 ['/unused/particles', 'unused-particles', faHandSparkles, 'Particles'],
                 ['/unused/pre-survival', 'unused-pre-survival', faHistory, 'Pre-Survival'],
-                ['/unused/pre-release', 'unused-pre-release', faUnlockAlt, 'Survival Pre-Release', <div className="badge badge-primary" style={{ marginLeft: 8, marginRight: -30, color: 'rgba(255,255,255,.8)' }}>New!</div>],
+                ['/unused/pre-release', 'unused-pre-release', faUnlockAlt, 'Survival Pre-Release'],
               ],
             ],
             [
@@ -49,9 +49,9 @@ export default function Home({ id }) {
             [
               'Other',
               [
+                ['/developer-qna', 'developer-qna', faQuestion, 'Developer Q&A', <div className="badge badge-primary" style={{ marginLeft: 8, color: 'rgba(255,255,255,.8)' }}>New!</div>],
                 ['/credits', 'credits', faUserPlus, 'Credits'],
                 ['/links', 'links', faLink, 'Links'],
-                ['/developer-qna', 'developer-qna', faQuestion, 'Developer Q&A'],
                 ['/devblogs', 'devblogs', faBook, 'Devblogs'],
                 ['/technical-info', 'technical-info', faTerminal, 'Technical Info'],
               ],
