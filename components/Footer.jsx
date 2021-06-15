@@ -7,11 +7,26 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import { isMobile } from 'react-device-detect';
+import { faCloudUploadAlt } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
     <nav className="navbar navbar-fixed-bottom">
       <ul className={`navbar-nav ${isMobile ? '' : 'ml-auto'}`}>
+        {
+          isMobile
+            ? <></> : (
+              <li className="nav-item">
+                <Link href="https://github.com/TurboBiscuit/smleaks/issues/new?assignees=&labels=new+leaks&template=submit-leaked-content.md&title=">
+                  <a className="nav-link">
+                    <FontAwesomeIcon icon={faCloudUploadAlt} className={isMobile ? 'mr-2' : 'mr-5'} fixedWidth />
+                    {isMobile ? '' : 'Submit Leaks'}
+                  </a>
+                </Link>
+              </li>
+            )
+        }
+
         <li className="nav-item">
           <Link href="/github">
             <a className="nav-link">
