@@ -2,7 +2,7 @@
 /* eslint-disable import/no-unresolved */
 import Head from 'next/head';
 import Script from 'next/script';
-import { flag } from '../helpers/env';
+import config from '../other/config';
 import { generateURL } from '../helpers/urls';
 import Logo from '../public/images/logfiles/image.png';
 
@@ -51,8 +51,8 @@ export default function Header({
                 image?.src
                 || generateURL(
                   'http',
-                  process.env.NEXT_PUBLIC_DOMAIN,
-                  process.env.NEXT_PUBLIC_DOMAIN_SECURE === 'true',
+                  config.domain.name,
+                  config.domain.secure,
                   Logo.src,
                 )
               }
@@ -63,8 +63,8 @@ export default function Header({
                 image?.src
                 || generateURL(
                   'http',
-                  process.env.NEXT_PUBLIC_DOMAIN,
-                  process.env.NEXT_PUBLIC_DOMAIN_SECURE === 'true',
+                  config.domain.name,
+                  config.domain.secure,
                   Logo.src,
                 )
               }
@@ -83,35 +83,35 @@ export default function Header({
       <meta name="apple-mobile-web-app-status-bar-style" content="#E67E22" />
 
       {/* Analytics/CDN (FLAGS) */}
-      {flag(
-        'ARC_IO_ENABLED',
+      {config.cdn.arc.enabled ? (
         <Script
           async
-          src={`https://arc.io/widget.min.js#${process.env.NEXT_PUBLIC_ARC_IO_ID}`}
+          src={`https://arc.io/widget.min.js#${config.cdn.arc.id}`}
           strategy="lazyOnload"
-        />,
-      )}
-      {flag(
-        'CLOUDFLARE_WEB_ANALYTICS_ENABLED',
-        <Script
-          src="https://static.cloudflareinsights.com/beacon.min.js"
-          data-cf-beacon={`{"token": "${process.env.NEXT_PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN}", "spa": true}`}
-          strategy="lazyOnload"
-        />,
-      )}
-      {flag(
-        'UMAMI_ANALYTICS_ENABLED',
-        <script
-          async
-          data-website-id={process.env.NEXT_PUBLIC_UMAMI_ANALYTICS_ID}
-          src={generateURL(
-            'http',
-            process.env.NEXT_PUBLIC_UMAMI_ANALYTICS_DOMAIN,
-            process.env.NEXT_PUBLIC_UMAMI_ANALYTICS_DOMAIN_SECURE === 'true',
-            '/umami.js',
-          )}
-        />,
-      )}
+        />
+      ) : <></>}
+      {config.analytics.cloudflare.enabled
+        ? (
+          <Script
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon={`{"token": "${config.analytics.cloudflare.token}", "spa": true}`}
+            strategy="lazyOnload"
+          />
+        ) : <></>}
+      {config.analytics.umami.enabled
+        ? (
+          <Script
+            async
+            strategy="lazyOnload"
+            data-website-id={config.analytics.umami.id}
+            src={generateURL(
+              'http',
+              config.analytics.umami.domain.name,
+              config.analytics.umami.domain.secure,
+              '/umami.js',
+            )}
+          />
+        ) : <></>}
     </Head>
   );
 }

@@ -6,7 +6,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import LiveViewers from './LiveViewers';
 
 import Logo from '../public/images/logfiles/image.png';
-import { flag } from '../helpers/env';
+import config from '../other/config';
 
 export default function Navbar() {
   return (
@@ -25,18 +25,20 @@ export default function Navbar() {
         <a className="navbar-brand ml-10 ml-sm-20">
           <Image src={Logo} alt="logo" width={44} height={44} />
           <span className="d-none d-sm-flex">SMLeaks</span>
-          {flag(
-            'DOMAIN_DEV',
-            <span className="badge badge-gray" style={{ marginLeft: 6 }}>Development</span>,
-          )}
+          {config.domain.development
+            ? (
+              <span className="badge badge-gray" style={{ marginLeft: 6 }}>
+                Development
+              </span>
+            ) : <></>}
         </a>
       </Link>
-      {flag(
-        'VIEWERS_ENABLED',
-        <div className="navbar-content d-md-flex ml-auto">
-          <LiveViewers />
-        </div>,
-      )}
+      {config.live_viewers.enabled
+        ? (
+          <div className="navbar-content d-md-flex ml-auto">
+            <LiveViewers />
+          </div>
+        ) : <></>}
     </nav>
   );
 }

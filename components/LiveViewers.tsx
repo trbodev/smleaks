@@ -3,6 +3,7 @@ import { Component } from 'react';
 import type { ComponentPropsWithRef, ElementType } from 'react';
 import { WebSocket } from 'nextjs-websocket';
 import { generateURL } from '../helpers/urls';
+import config from '../other/config';
 
 export default class LiveViewers extends Component<{}, {viewers:string}> {
   constructor(props: ComponentPropsWithRef<ElementType>) {
@@ -28,8 +29,8 @@ export default class LiveViewers extends Component<{}, {viewers:string}> {
           url={
             generateURL(
               'ws',
-              process.env.NEXT_PUBLIC_VIEWERS_DOMAIN,
-              process.env.NEXT_PUBLIC_VIEWERS_DOMAIN_SECURE === 'true',
+              config.live_viewers.domain.name,
+              config.live_viewers.domain.secure,
               '/',
             )
           }
