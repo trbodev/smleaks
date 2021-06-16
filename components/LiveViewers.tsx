@@ -34,7 +34,8 @@ export default class LiveViewers extends Component<{}, {viewers:string}> {
               '/',
             )
           }
-          onMessage={this.handleData}
+          // eslint-disable-next-line react/jsx-no-bind
+          onMessage={this.handleData.bind(this)}
           onClose={() => this.handleData('"Reconnecting..."')}
           reconnect
           debug
