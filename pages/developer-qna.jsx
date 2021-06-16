@@ -96,7 +96,7 @@ export default function DeveloperQandA(page) {
                         {' '}
                         is not really scrapped, but it is put on hold for now.
                         The reason is that we took the story in a more interesting
-                        direction and the scrapyard didn\'t really fit as the next location.
+                        direction and the scrapyard didn&apos;t really fit as the next location.
                         However, it might be included in a later update.
                         We still have a lot of really great ideas for the scrapyard setting.
                       </>
