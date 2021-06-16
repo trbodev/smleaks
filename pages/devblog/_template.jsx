@@ -76,6 +76,7 @@ export default function DevblogTemplate(page) {
             src={Title}
             placeholderSrc={TitleLQ}
             effect="blur"
+            style={{ aspectRatio: '1913/1200' }}
           />
         </article>
       </div>

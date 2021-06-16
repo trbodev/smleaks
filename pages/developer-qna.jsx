@@ -66,6 +66,7 @@ export default function DeveloperQandA(page) {
             src={Title}
             placeholderSrc={TitleLQ}
             effect="blur"
+            style={{ aspectRatio: '800/450' }}
           />
           <br />
           <br />

@@ -44,7 +44,7 @@ export default function LogbookItems() {
               src={require('../../public/images/logfiles/image.png?webp&width=200&url')}
               placeholderSrc={require('../../public/images/logfiles/image.png?webp&lqip')}
               effect="blur"
-              style={{ maxWidth: 200, width: '100%' }}
+              style={{ maxWidth: 200, width: '100%', aspectRatio: '1/1' }}
             />
           </a>
           <a href="/images/logfiles/audio.png">
@@ -53,7 +53,7 @@ export default function LogbookItems() {
               src={require('../../public/images/logfiles/audio.png?webp&width=200&url')}
               placeholderSrc={require('../../public/images/logfiles/audio.png?webp&lqip')}
               effect="blur"
-              style={{ maxWidth: 200, width: '100%' }}
+              style={{ maxWidth: 200, width: '100%', aspectRatio: '1/1' }}
             />
           </a>
           <figcaption>
@@ -76,7 +76,7 @@ export default function LogbookItems() {
               src={require('../../public/images/other/openterminal.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/other/openterminal.png?webp&lqip')}
               effect="blur"
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '1/1' }}
             />
           </a>
           <figcaption>
@@ -98,7 +98,7 @@ export default function LogbookItems() {
               src={require('../../public/images/logbook/open-ingame-1.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/logbook/open-ingame-1.png?webp&lqip')}
               effect="blur"
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '16/9' }}
             />
           </a>
           <a href="/images/logbook/open-ingame-2.png">
@@ -107,7 +107,7 @@ export default function LogbookItems() {
               src={require('../../public/images/logbook/open-ingame-2.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/logbook/open-ingame-2.png?webp&lqip')}
               effect="blur"
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '16/9' }}
             />
           </a>
           <figcaption>
@@ -129,7 +129,7 @@ export default function LogbookItems() {
               src={require('../../public/images/logbook/render.png?webp&width=400&url')}
               placeholderSrc={require('../../public/images/logbook/render.png?webp&lqip')}
               effect="blur"
-              style={{ maxWidth: 400, width: '100%' }}
+              style={{ maxWidth: 400, width: '100%', aspectRatio: '841/481' }}
             />
           </a>
           <figcaption>
@@ -154,7 +154,7 @@ export default function LogbookItems() {
               src={require('../../public/images/logbook/icons.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/logbook/icons.png?webp&lqip')}
               effect="blur"
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '2/1' }}
             />
           </a>
           <figcaption>

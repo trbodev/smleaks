@@ -32,7 +32,9 @@ export default function UnusedTextures() {
               alt="outfitpackage"
               src={require('../../public/images/other/outfitpackge.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/other/outfitpackge.png?webp&lqip')}
-              style={{ maxWidth: 300, width: '100%', objectFit: 'contain' }}
+              style={{
+                maxWidth: 300, width: '100%', objectFit: 'contain', aspectRatio: '2/1',
+              }}
               height={150}
               effect="blur"
             />
@@ -59,7 +61,9 @@ export default function UnusedTextures() {
               alt="dead-duck"
               src={require('../../public/images/other/deadduckhead.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/other/deadduckhead.png?webp&lqip')}
-              style={{ maxWidth: 300, width: '100%', objectFit: 'contain' }}
+              style={{
+                maxWidth: 300, width: '100%', objectFit: 'contain', aspectRatio: '1/1',
+              }}
               height={300}
               effect="blur"
             />
@@ -86,7 +90,9 @@ export default function UnusedTextures() {
               alt="mechanic-station-billboard-alt"
               src={require('../../public/images/other/mechanicstationbillboardalt.png?webp&width=400&url')}
               placeholderSrc={require('../../public/images/other/mechanicstationbillboardalt.png?webp&lqip')}
-              style={{ maxWidth: 400, width: '100%', objectFit: 'contain' }}
+              style={{
+                maxWidth: 400, width: '100%', objectFit: 'contain', aspectRatio: '2/1',
+              }}
               height={200}
               effect="blur"
             />

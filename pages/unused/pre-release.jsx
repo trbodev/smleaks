@@ -32,7 +32,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/gas-pump.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/gas-pump.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '669/604' }}
               effect="blur"
             />
           </a>
@@ -59,7 +59,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/mechanical.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/mechanical.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1087/821' }}
               effect="blur"
             />
           </a>
@@ -89,7 +89,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/tiled-red-metal.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/tiled-red-metal.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1084/812' }}
               effect="blur"
             />
           </a>
@@ -116,7 +116,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/super-heavy-concrete.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/super-heavy-concrete.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1077/816' }}
               effect="blur"
             />
           </a>
@@ -146,7 +146,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/strong-steel.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/strong-steel.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1085/820' }}
               effect="blur"
             />
           </a>
@@ -176,7 +176,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/super-strong-steel.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/super-strong-steel.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1082/819' }}
               effect="blur"
             />
           </a>
@@ -206,7 +206,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/ice.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/ice.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1087/821' }}
               effect="blur"
             />
           </a>
@@ -236,7 +236,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/coal.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/coal.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1085/826' }}
               effect="blur"
             />
           </a>
@@ -266,7 +266,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/copper.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/copper.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1083/815' }}
               effect="blur"
             />
           </a>
@@ -296,7 +296,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/galvanized-metal.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/galvanized-metal.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1088/816' }}
               effect="blur"
             />
           </a>
@@ -323,7 +323,7 @@ export default function UnusedPreRelease() {
               alt="ship-tile"
               src={require('../../public/images/pre-release/taped-plaster.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-release/taped-plaster.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1081/820' }}
               effect="blur"
             />
           </a>

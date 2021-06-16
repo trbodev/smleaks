@@ -27,7 +27,7 @@ export default function UnusedTools() {
               alt="lift-remote"
               src={require('../../public/images/tools/liftremote.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/tools/liftremote.png?webp&lqip')}
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '1/1' }}
             />
           </a>
           <figcaption>
@@ -66,7 +66,7 @@ export default function UnusedTools() {
               alt="garden-shovel"
               src={require('../../public/images/tools/garden-shovel-hand.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/tools/garden-shovel-hand.png?webp&lqip')}
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '646/912' }}
             />
           </a>
           <a href="/images/tools/garden-shovel-color.png">
@@ -74,7 +74,9 @@ export default function UnusedTools() {
               alt="garden-shovel"
               src={require('../../public/images/tools/garden-shovel-color.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/tools/garden-shovel-color.png?webp&lqip')}
-              style={{ maxWidth: 180, width: '100%', marginLeft: 20 }}
+              style={{
+                maxWidth: 180, width: '100%', marginLeft: 20, aspectRatio: '276/653',
+              }}
             />
           </a>
           <figcaption>

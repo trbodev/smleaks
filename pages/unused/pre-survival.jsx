@@ -33,7 +33,7 @@ export default function UnusedPreSurvival() {
               alt="hanging-character"
               src={require('../../public/images/pre-survival/hanging-character.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/pre-survival/hanging-character.png?webp&lqip')}
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '443/646' }}
               className={HoverBlur['hover-blur']}
               effect="blur"
             />
@@ -60,7 +60,7 @@ export default function UnusedPreSurvival() {
               alt="indestructable-block"
               src={require('../../public/images/pre-survival/indestructable-block.png?webp&width=200&url')}
               placeholderSrc={require('../../public/images/pre-survival/indestructable-block.png?webp&lqip')}
-              style={{ maxWidth: 200, width: '100%' }}
+              style={{ maxWidth: 200, width: '100%', aspectRatio: '214/467' }}
               effect="blur"
             />
           </a>
@@ -116,7 +116,7 @@ export default function UnusedPreSurvival() {
               alt="insulation-block"
               src={require('../../public/images/pre-survival/insulation-block.png?webp&width=200&url')}
               placeholderSrc={require('../../public/images/pre-survival/insulation-block.png?webp&lqip')}
-              style={{ maxWidth: 200, width: '100%' }}
+              style={{ maxWidth: 200, width: '100%', aspectRatio: '234/476' }}
               effect="blur"
             />
           </a>
@@ -171,7 +171,7 @@ export default function UnusedPreSurvival() {
               alt="spaceship-block"
               src={require('../../public/images/pre-survival/spaceship-block.png?webp&width=200&url')}
               placeholderSrc={require('../../public/images/pre-survival/spaceship-block.png?webp&lqip')}
-              style={{ maxWidth: 200, width: '100%' }}
+              style={{ maxWidth: 200, width: '100%', aspectRatio: '235/481' }}
               effect="blur"
             />
           </a>
@@ -228,7 +228,7 @@ export default function UnusedPreSurvival() {
               alt="ship-tile"
               src={require('../../public/images/pre-survival/ship-tile.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/pre-survival/ship-tile.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '1459/781' }}
               effect="blur"
             />
           </a>

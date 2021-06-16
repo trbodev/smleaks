@@ -25,7 +25,7 @@ export default function Home({
       </div>
       <Link scroll prefetch={false} href="/">
         <a href="/" className="navbar-brand ml-10 ml-sm-20">
-          <img src={Logo.toString()} alt="logo" />
+          <img src={Logo.toString()} alt="logo" style={{ aspectRatio: '1/1' }} />
           <span className="d-none d-sm-flex">SMLeaks</span>
           {process.env.NEXT_PUBLIC_DOMAIN_DEV === 'true' ? <span className="badge badge-gray" style={{ marginLeft: 6 }}>Development</span> : <></>}
         </a>

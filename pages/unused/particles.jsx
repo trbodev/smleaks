@@ -32,7 +32,7 @@ export default function UnusedParticles() {
               alt="encryptor-turn-on"
               src={require('../../public/images/other/encryptorblast.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/other/encryptorblast.png?webp&lqip')}
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '1/1' }}
               sizes={[300]}
             />
           </a>

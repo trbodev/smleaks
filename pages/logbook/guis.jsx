@@ -44,7 +44,7 @@ export default function LogbookGUIs() {
               alt="logbook-gui"
               src={require('../../public/images/logbook/gui.png?webp&width=400&url')}
               placeholderSrc={require('../../public/images/logbook/gui.png?webp&lqip')}
-              style={{ maxWidth: 400, width: '100%' }}
+              style={{ maxWidth: 400, width: '100%', aspectRatio: '1916/1037' }}
             />
           </a>
           <figcaption>
@@ -69,7 +69,7 @@ export default function LogbookGUIs() {
               alt="waypoint-gui"
               src={require('../../public/images/logbook/waypoint-gui.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/logbook/waypoint-gui.png?webp&lqip')}
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '739/848' }}
             />
           </a>
           <figcaption>
@@ -94,7 +94,7 @@ export default function LogbookGUIs() {
               alt="logbook-gui-mockup"
               src={require('../../public/images/logbook/gui-mockup.png?webp&width=400&url')}
               placeholderSrc={require('../../public/images/logbook/gui-mockup.png?webp&lqip')}
-              style={{ maxWidth: 400, width: '100%' }}
+              style={{ maxWidth: 400, width: '100%', aspectRatio: '16/9' }}
             />
           </a>
           <figcaption>

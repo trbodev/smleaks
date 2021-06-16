@@ -45,7 +45,7 @@ export default function UnusedTiles() {
             'https://cdn.discordapp.com/attachments/669212231749206026/770725893769003048/938a5814-5575-49d5-bb43-e23a63f47f63.png',
             'https://cdn.discordapp.com/attachments/669212231749206026/770725869643497522/78c6b2ad-72cc-447a-b723-50b9004e00fb.png',
           ].map((url) => (
-            <img src={url} style={{ maxWidth: 150, width: '100%' }} />
+            <img src={url} style={{ maxWidth: 150, width: '100%', aspectRatio: '1/1' }} />
           ))}
           <figcaption>
             A lot of Unused Tile Asset Icons
@@ -83,7 +83,7 @@ export default function UnusedTiles() {
             'https://cdn.discordapp.com/attachments/835996787370098798/835996958769545296/WaypointIcon.png',
             'https://cdn.discordapp.com/attachments/835996787370098798/835996960695386112/WocIcon.png',
           ].map((url) => (
-            <img src={url} style={{ maxWidth: 150, width: '100%' }} />
+            <img src={url} style={{ maxWidth: 150, width: '100%', aspectRatio: '1/1' }} />
           ))}
 
           <figcaption>

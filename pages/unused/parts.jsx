@@ -32,7 +32,7 @@ export default function UnusedParts() {
               alt="plastic-pumpkin-front"
               src={require('../../public/images/other/pumpkin_front.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/other/pumpkin_front.png?webp&lqip')}
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '1/1' }}
             />
           </a>
           <a href="/images/other/pumpkin_back.png">
@@ -40,7 +40,7 @@ export default function UnusedParts() {
               alt="plastic-pumpkin-back"
               src={require('../../public/images/other/pumpkin_back.png?webp&width=300&url')}
               placeholderSrc={require('../../public/images/other/pumpkin_back.png?webp&lqip')}
-              style={{ maxWidth: 300, width: '100%' }}
+              style={{ maxWidth: 300, width: '100%', aspectRatio: '1/1' }}
             />
           </a>
           <figcaption>
@@ -72,7 +72,7 @@ export default function UnusedParts() {
               alt="piston2"
               src={require('../../public/images/other/piston2.png?webp&width=400&url')}
               placeholderSrc={require('../../public/images/other/piston2.png?webp&lqip')}
-              style={{ maxWidth: 400, width: '100%' }}
+              style={{ maxWidth: 400, width: '100%', aspectRatio: '543/419' }}
             />
           </a>
           <figcaption>
@@ -100,7 +100,7 @@ export default function UnusedParts() {
               alt="piston2"
               src={require('../../public/images/other/car-parts.png?webp&width=500&url')}
               placeholderSrc={require('../../public/images/other/car-parts.png?webp&lqip')}
-              style={{ maxWidth: 500, width: '100%' }}
+              style={{ maxWidth: 500, width: '100%', aspectRatio: '817/486' }}
             />
           </a>
           <figcaption>
