@@ -13,6 +13,7 @@ import type { GetStaticPropsResult } from 'next';
 import moment from 'moment';
 import Comments from '../../components/Comments';
 import { generateURL } from '../../helpers/urls';
+import config from '../../other/config';
 import { devblog2 as devblogSrc } from '../../other/devblog_descriptions';
 
 // image imports
@@ -47,8 +48,8 @@ export function getStaticProps():GetStaticPropsResult<{
       image: {
         url: generateURL(
           'http',
-          process.env.NEXT_PUBLIC_DOMAIN,
-          process.env.NEXT_PUBLIC_DOMAIN_SECURE === 'true',
+          config.domain.name,
+          config.domain.secure,
           Title.src,
         ),
         large: true,
