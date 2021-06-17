@@ -26,8 +26,17 @@ const progress = new ProgressBar({
 });
 
 Router.events.on('routeChangeStart', progress.start);
-Router.events.on('routeChangeComplete', progress.finish);
 Router.events.on('routeChangeError', progress.finish);
+Router.events.on('routeChangeComplete', () => {
+  progress.finish();
+  window
+    .document
+    .getElementsByClassName('content-wrapper')[0]
+    .scroll({
+      top: 1,
+      behavior: 'auto',
+    });
+});
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
