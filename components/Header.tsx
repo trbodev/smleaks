@@ -1,7 +1,6 @@
 /* eslint-disable react/no-danger */
 /* eslint-disable import/no-unresolved */
 import Head from 'next/head';
-import Script from 'next/script';
 import config from '../other/config';
 import { generateURL } from '../helpers/urls';
 import Logo from '../public/images/logfiles/image.png';
@@ -41,41 +40,19 @@ export default function Header({
       <meta property="og:url" content="https://smleaks.com" />
       <meta property="og:title" content={`SMLeaks ${title ? `| ${title}` : ''}`} />
       <meta property="og:description" content={description || 'Community run leaking website for Scrap Mechanic'} />
-      {
-        image?.enabled === false
-          ? (
-            <>
-              <meta
-                property="og:image"
-                content={
-                image?.src
-                || generateURL(
-                  'http',
-                  config.domain.name,
-                  config.domain.secure,
-                  Logo.src,
-                )
-              }
-              />
-              <meta
-                property="twitter:image"
-                content={
-                image?.src
-                || generateURL(
-                  'http',
-                  config.domain.name,
-                  config.domain.secure,
-                  Logo.src,
-                )
-              }
-              />
-              {
-                image?.large ? <meta name="twitter:card" content="summary_large_image" /> : <></>
-              }
-            </>
-          )
-          : <></>
-      }
+      {image?.enabled ? (
+        <meta
+          property="og:image"
+          content={image?.src || generateURL('http', config.domain.name, config.domain.secure, Logo.src)}
+        />
+      ) : <link />}
+      {image?.enabled ? (
+        <meta
+          property="twitter:image"
+          content={image?.src || generateURL('http', config.domain.name, config.domain.secure, Logo.src)}
+        />
+      ) : <link />}
+      {image?.enabled && image?.large ? <meta name="twitter:card" content="summary_large_image" /> : <link /> }
 
       {/* Embed/Navbar Color */}
       <meta name="theme-color" content="#E67E22" />
@@ -84,25 +61,23 @@ export default function Header({
 
       {/* Analytics/CDN (FLAGS) */}
       {config.cdn.arc.enabled ? (
-        <Script
+        <script
           async
           src={`https://arc.io/widget.min.js#${config.cdn.arc.id}`}
-          strategy="lazyOnload"
         />
-      ) : <></>}
+      ) : <link />}
       {config.analytics.cloudflare.enabled
         ? (
-          <Script
+          <script
             src="https://static.cloudflareinsights.com/beacon.min.js"
             data-cf-beacon={`{"token": "${config.analytics.cloudflare.token}", "spa": true}`}
-            strategy="lazyOnload"
+            async
           />
-        ) : <></>}
+        ) : <link />}
       {config.analytics.umami.enabled
         ? (
-          <Script
+          <script
             async
-            strategy="lazyOnload"
             data-website-id={config.analytics.umami.id}
             src={generateURL(
               'http',
@@ -111,7 +86,7 @@ export default function Header({
               '/umami.js',
             )}
           />
-        ) : <></>}
+        ) : <link />}
     </Head>
   );
 }
