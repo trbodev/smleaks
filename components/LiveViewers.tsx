@@ -25,8 +25,10 @@ export default class LiveViewers extends Component<{}, {viewers:string}> {
         Viewers:
         {' '}
         <strong>{this.state.viewers}</strong>
-        <WebSocket
-          url={
+        {
+          config.live_viewers.enabled ? (
+            <WebSocket
+              url={
             generateURL(
               'ws',
               config.live_viewers.domain.name,
@@ -35,11 +37,13 @@ export default class LiveViewers extends Component<{}, {viewers:string}> {
             )
           }
           // eslint-disable-next-line react/jsx-no-bind
-          onMessage={this.handleData.bind(this)}
-          onClose={() => this.handleData('"Reconnecting..."')}
-          reconnect
-          debug
-        />
+              onMessage={this.handleData.bind(this)}
+              onClose={() => this.handleData('"Reconnecting..."')}
+              reconnect
+              debug
+            />
+          ) : <></>
+        }
       </div>
     );
   }
