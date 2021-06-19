@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import type { GetStaticPropsResult } from 'next';
+import pkgJson from '../package.json';
 
 export function getStaticProps():GetStaticPropsResult<{
   title:string
@@ -36,7 +37,8 @@ export default function TechnicalInfo() {
                 className="badge badge-sm badge-primary"
                 style={{ marginRight: 10 }}
               >
-                v3.0.0
+                v
+                {pkgJson.version}
               </div>
               <a href="https://github.com/TurboBiscuit/smleaks">
                 <div className="badge badge-sm">
@@ -53,24 +55,6 @@ export default function TechnicalInfo() {
                   <a href="https://reactjs.org/">React</a>
                   {' '}
                   ramework)
-                  {' '}
-                  {showPricing ? (
-                    <div
-                      className="badge badge-primary"
-                      style={{ color: 'rgba(255,255,255,.8)' }}
-                    >
-                      Free &amp; Open Source
-                    </div>
-                  ) : null}
-                </li>
-                <li>
-                  <a href="https://preactjs.com/">Preact</a>
-                  {' '}
-                  (Lightweight
-                  {' '}
-                  <a href="https://reactjs.org/">React</a>
-                  {' '}
-                  Alternitive)
                   {' '}
                   {showPricing ? (
                     <div
@@ -127,32 +111,6 @@ export default function TechnicalInfo() {
                     </div>
                   ) : null}
                 </li>
-                <pre>
-                  <li>
-                    npm packages
-                    <ul>
-                      {[
-                        'moment',
-                        '@fortawesome/fontawesome-svg-core',
-                        '@fortawesome/react-fontawesome',
-                        'next-compose-plugins',
-                        'next-google-fonts',
-                        'next-optimized-images',
-                        'next-plugin-preact',
-                        'nextjs-websocket',
-                        'react-device-detect',
-                        'react-lazy-load-image-component',
-                        '@badrap/bar-of-progress',
-                      ].map((npmPackage) => (
-                        <li key={npmPackage}>
-                          <a href={`https://npmjs.org/package/${npmPackage}`}>
-                            {npmPackage}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                </pre>
               </ul>
             </li>
             <li>
@@ -190,33 +148,11 @@ export default function TechnicalInfo() {
                   Github
                 </div>
               </a>
-              <pre>
-                <ul>
-                  <li>
-                    npm packages
-                    <ul>
-                      {['steam-user', 'discord.js', 'twit'].map(
-                        (npmPackage) => (
-                          <li key={npmPackage}>
-                            <a href={`https://npmjs.org/package/${npmPackage}`}>
-                              {npmPackage}
-                            </a>
-                          </li>
-                        ),
-                      )}
-                    </ul>
-                  </li>
-                </ul>
-              </pre>
-            </li>
-            <li>
-              <b>Other</b>
               <ul>
                 <li>
-                  <a href="https://cloudflare.com/">Cloudflare</a>
+                  <a href="https://railway.app/">Railway</a>
                   {' '}
-                  (DNS,
-                  Registrar, DDoS Protection, Web Analytics)
+                  (Hosting)
                   {' '}
                   {showPricing ? (
                     <div
@@ -227,10 +163,42 @@ export default function TechnicalInfo() {
                     </div>
                   ) : null}
                 </li>
+              </ul>
+            </li>
+            <li>
+              <b>Realtime Viewers</b>
+              {' '}
+              <div
+                className="badge badge-sm badge-primary"
+                style={{ marginRight: 10 }}
+              >
+                v1.0.0
+              </div>
+              <ul>
                 <li>
                   <a href="https://railway.app/">Railway</a>
                   {' '}
-                  (Infrastructure Hosting)
+                  (Hosting)
+                  {' '}
+                  {showPricing ? (
+                    <div
+                      className="badge badge-primary"
+                      style={{ color: 'rgba(255,255,255,.8)' }}
+                    >
+                      Free &amp; Paid Options
+                    </div>
+                  ) : null}
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b>Other</b>
+              <ul>
+                <li>
+                  <a href="https://cloudflare.com/">Cloudflare</a>
+                  {' '}
+                  (DNS,
+                  Registrar, DDoS Protection, Web Analytics)
                   {' '}
                   {showPricing ? (
                     <div
