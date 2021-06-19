@@ -13,7 +13,7 @@ import ProgressBar from '@badrap/bar-of-progress';
 
 // component imports
 import { useState } from 'react';
-import { isMobile } from 'react-device-detect';
+import { isMobile as isMobileInit } from 'react-device-detect';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
@@ -41,6 +41,7 @@ Router.events.on('routeChangeComplete', () => {
 });
 
 export default function App({ Component, pageProps }: AppProps) {
+  const [isMobile] = useState(isMobileInit);
   const [sidebar, setSidebar] = useState(!isMobile);
   return (
     <div>
