@@ -109,7 +109,8 @@ export default function UnusedAudio() {
         {Array(4)
           .fill(0)
           .map((e, i) => (
-            <div key={e}>
+            // eslint-disable-next-line react/no-array-index-key
+            <div key={i}>
               <small>
                 alarm0
                 {i + 1}
