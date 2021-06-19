@@ -8,7 +8,13 @@ import LiveViewers from './LiveViewers';
 import Logo from '../public/images/logfiles/image.png';
 import config from '../other/config';
 
-export default function Navbar() {
+export default function Navbar({
+  sidebar,
+  setSidebar,
+}:{
+  sidebar:boolean
+  setSidebar: Function
+}) {
   return (
     <nav className="navbar">
       <div className="navbar-content">
@@ -17,6 +23,7 @@ export default function Navbar() {
           className="btn btn-action"
           type="button"
           aria-label="button"
+          onClick={() => setSidebar(!sidebar)}
         >
           <FontAwesomeIcon icon={faBars} fixedWidth aria-hidden="true" />
         </button>

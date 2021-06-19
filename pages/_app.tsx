@@ -12,6 +12,8 @@ import type { AppProps } from 'next/app';
 import ProgressBar from '@badrap/bar-of-progress';
 
 // component imports
+import { useState } from 'react';
+import { isMobile } from 'react-device-detect';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
@@ -39,6 +41,7 @@ Router.events.on('routeChangeComplete', () => {
 });
 
 export default function App({ Component, pageProps }: AppProps) {
+  const [sidebar, setSidebar] = useState(!isMobile);
   return (
     <div>
       <Header {...pageProps} />
@@ -46,9 +49,10 @@ export default function App({ Component, pageProps }: AppProps) {
         id="page-wrapper"
         className="dark-mode page-wrapper with-transitions with-navbar with-sidebar with-navbar-fixed-bottom with-custom-webkit-scrollbars with-custom-css-scrollbars"
         data-sidebar-type="overlayed-sm-and-down"
+        {...(sidebar ? {} : { 'data-sidebar-hidden': 'hidden' })}
       >
-        <Navbar />
-        <SidebarOverlay />
+        <Navbar sidebar={sidebar} setSidebar={setSidebar} />
+        <SidebarOverlay sidebar={sidebar} setSidebar={setSidebar} />
         <Sidebar {...pageProps} />
         <div className="content-wrapper">
           <div className="container-fluid">
