@@ -29,6 +29,9 @@ declare namespace NodeJS {
 
     readonly NEXT_PUBLIC_ARC_IO_ENABLED: string | 'true' | 'false';
     readonly NEXT_PUBLIC_ARC_IO_ID: string;
+
+    readonly NEXT_PUBLIC_COMMENTS_ENABLED: string | 'true' | 'false';
+    readonly NEXT_PUBLIC_COMMENTS_REPO: string;
   }
 }
 

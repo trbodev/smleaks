@@ -31,4 +31,8 @@ export default {
       id: process.env.NEXT_PUBLIC_ARC_IO_ID,
     },
   },
+  comments: {
+    enabled: process.env.NEXT_PUBLIC_COMMENTS_ENABLED === 'true',
+    repo: process.env.NEXT_PUBLIC_COMMENTS_REPO,
+  },
 };
