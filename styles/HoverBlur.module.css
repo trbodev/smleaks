@@ -1,6 +1,6 @@
 .hover-blur {
-    filter: blur(15px);
+    filter: blur(20px) !important;
 }
 .hover-blur:hover {
-    filter: none;
+    filter: none !important;
 }
