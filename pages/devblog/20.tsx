@@ -124,7 +124,7 @@ export default function Devblog20({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/fOicyRd.png',
               width: 1,
               height: 1,
             }}
@@ -135,7 +135,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/d6EKxCH.png',
               width: 1,
               height: 1,
             }}
@@ -146,7 +146,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/YrGSNdu.png',
               width: 1,
               height: 1,
             }}
@@ -157,7 +157,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/YJqsZPQ.png',
               width: 1,
               height: 1,
             }}
@@ -168,7 +168,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/VzYRYd5.jpg',
               width: 1,
               height: 1,
             }}
@@ -179,7 +179,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/31Y52y6.png',
               width: 1,
               height: 1,
             }}
@@ -211,7 +211,7 @@ export default function Devblog20({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/ZmdtuOU.jpg',
               width: 1,
               height: 1,
             }}
@@ -222,7 +222,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/m2BjClw.png',
               width: 1,
               height: 1,
             }}
@@ -233,7 +233,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/kImsEkt.png',
               width: 1,
               height: 1,
             }}
@@ -244,7 +244,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/E3R6oCa.png',
               width: 1,
               height: 1,
             }}
@@ -255,7 +255,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/gJH16iS.png',
               width: 1,
               height: 1,
             }}
@@ -266,7 +266,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/8jytLvN.png',
               width: 1,
               height: 1,
             }}
@@ -277,7 +277,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/IfhNZ5w.png',
               width: 1,
               height: 1,
             }}
@@ -308,7 +308,7 @@ export default function Devblog20({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/SMi4k0l.png',
               width: 1,
               height: 1,
             }}
@@ -319,7 +319,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/HpqafLv.png',
               width: 1,
               height: 1,
             }}
@@ -330,7 +330,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/nqoW7cf.png',
               width: 1,
               height: 1,
             }}
@@ -358,7 +358,7 @@ export default function Devblog20({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/D1Kq6ov.png',
               width: 1,
               height: 1,
             }}
@@ -389,7 +389,7 @@ export default function Devblog20({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/dsdHeO3.png',
               width: 1,
               height: 1,
             }}
@@ -400,7 +400,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/UnpWa4W.png',
               width: 1,
               height: 1,
             }}
@@ -428,7 +428,7 @@ export default function Devblog20({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/Cg91tU8.png',
               width: 1,
               height: 1,
             }}
@@ -439,7 +439,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/KaBtpeU.png',
               width: 1,
               height: 1,
             }}
@@ -450,7 +450,7 @@ export default function Devblog20({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/3z2zMGO.png',
               width: 1,
               height: 1,
             }}
@@ -482,7 +482,7 @@ export default function Devblog20({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/hEM71OE.gif',
               width: 1,
               height: 1,
             }}
@@ -519,7 +519,7 @@ export default function Devblog20({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/qyXH9fp.png',
               width: 1,
               height: 1,
             }}
@@ -555,7 +555,7 @@ export default function Devblog20({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/qlceQvY.png',
               width: 1,
               height: 1,
             }}

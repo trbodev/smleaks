@@ -120,7 +120,7 @@ export default function Devblog21({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/79rENKJ.png',
               width: 1,
               height: 1,
             }}
@@ -131,7 +131,7 @@ export default function Devblog21({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/gHcxGrZ.png',
               width: 1,
               height: 1,
             }}
@@ -298,7 +298,7 @@ export default function Devblog21({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/Tcd3L8e.png',
               width: 1,
               height: 1,
             }}
@@ -309,7 +309,7 @@ export default function Devblog21({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/lVA3W7b.png',
               width: 1,
               height: 1,
             }}
@@ -338,7 +338,7 @@ export default function Devblog21({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/KTX4NRO.png',
               width: 1,
               height: 1,
             }}
@@ -349,7 +349,7 @@ export default function Devblog21({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/GEZkT7M.png',
               width: 1,
               height: 1,
             }}
@@ -393,7 +393,7 @@ export default function Devblog21({
           />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/EQkchWp.png',
               width: 1,
               height: 1,
             }}
@@ -404,7 +404,7 @@ export default function Devblog21({
           <br />
           <Image
             src={{
-              src: 'https://i.imgur.com/i..i.',
+              src: 'https://i.imgur.com/QASRL32.png',
               width: 1,
               height: 1,
             }}
