@@ -146,33 +146,24 @@ export default function Devblog19({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/5VfP6SH.jpg',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/5VfP6SH.jpg')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/RctCO83.jpg',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/RctCO83.jpg')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/yhiycRP.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/yhiycRP.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -202,55 +193,37 @@ export default function Devblog19({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/3dMWuOr.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/3dMWuOr.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/3s9a4cM.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/3s9a4cM.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/LRJlWX6.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/LRJlWX6.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/5APfEBs.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/5APfEBs.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/zBq21UN.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/zBq21UN.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -272,11 +245,7 @@ export default function Devblog19({
           playerbase under attack!
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/Fxncgme.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/Fxncgme.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -306,66 +275,44 @@ export default function Devblog19({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/DCyymhf.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/DCyymhf.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/IVM5lBk.jpg',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/IVM5lBk.jpg')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/6g4kmvI.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/6g4kmvI.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/nKTfHiq.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/nKTfHiq.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/0V64sz7.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/0V64sz7.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/GOsDmFG.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/GOsDmFG.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -399,33 +346,23 @@ export default function Devblog19({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/I2HvwIs.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/I2HvwIs.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/V4Xa6hR.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/V4Xa6hR.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/EPKxeD0.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/EPKxeD0.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -459,55 +396,39 @@ export default function Devblog19({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/8iGJm9t.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/8iGJm9t.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/WLey67T.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/WLey67T.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/TYOYi31.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/TYOYi31.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/Ue7yO2c.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/Ue7yO2c.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/t1iknBC.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/t1iknBC.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -537,33 +458,24 @@ export default function Devblog19({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/ptqjI9u.jpg',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/ptqjI9u.jpg')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/wtn5BFB.jpg',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/wtn5BFB.jpg')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/g75SJBx.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/g75SJBx.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -590,22 +502,16 @@ export default function Devblog19({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/liWTsJa.jpg',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/liWTsJa.jpg')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/IzRduSN.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/IzRduSN.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -632,11 +538,7 @@ export default function Devblog19({
           survival news!
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/EKzlQPY.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/EKzlQPY.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}

@@ -345,11 +345,7 @@ export default function Devblog9({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/acgu0CF.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/acgu0CF.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}

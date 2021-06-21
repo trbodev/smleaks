@@ -175,11 +175,8 @@ export default function Devblog22({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/7fBap4n.jpg',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/7fBap4n.jpg')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -210,11 +207,8 @@ export default function Devblog22({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/MKMSSLG.png',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/MKMSSLG.png')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -246,11 +240,8 @@ export default function Devblog22({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/76uEf0K.jpg',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/76uEf0K.jpg')}
+            placeholder="blur"
             loading="lazy"
             layout="responsive"
             priority={false}

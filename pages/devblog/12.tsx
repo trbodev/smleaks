@@ -147,11 +147,7 @@ export default function Devblog12({
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/NfQjdVI.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/NfQjdVI.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -281,11 +277,7 @@ export default function Devblog12({
             aria-hidden="true"
           />
           <Image
-            src={{
-              src: 'https://i.imgur.com/Ya7l9vE.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/Ya7l9vE.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -325,11 +317,7 @@ export default function Devblog12({
           heroic stance. Inspiring stuff, we’re sure you’ll agree!
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/UXuX5fa.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/UXuX5fa.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
@@ -435,11 +423,7 @@ export default function Devblog12({
           />
           <br />
           <Image
-            src={{
-              src: 'https://i.imgur.com/Sp7GpHK.gif',
-              width: 1,
-              height: 1,
-            }}
+            src={require('../../public/images/imgur/Sp7GpHK.gif')}
             loading="lazy"
             layout="responsive"
             priority={false}
