@@ -117,6 +117,20 @@ export default function UnusedParticles() {
             </small>
           </figcaption>
         </figure>
+        <figure>
+          <iframe title="More unused particles showcase" src="https://www.youtube.com/embed/dqVTn9LYx2M" style={{ aspectRatio: '16/9', width: '100%', maxWidth: 500 }} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+          <figcaption>
+            More unused particles showcase
+            <br />
+            <code><small>Names (in order of apperance): Orientation, Placeholder 1-3</small></code>
+            <br />
+            <small>
+              Found by
+              {' '}
+              {usernames.shrooToo}
+            </small>
+          </figcaption>
+        </figure>
       </div>
     </div>
   );

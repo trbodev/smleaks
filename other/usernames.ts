@@ -13,4 +13,5 @@ export default {
   redBoi: 'Red Boi',
   vajdani: 'Vajdani',
   nothingMod: 'Nothing Mod (aka Komendowy Muzykant)',
+  shrooToo: 'ShrooToo',
 };
