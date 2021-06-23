@@ -26,7 +26,7 @@ module.exports = {
       },
       {
         source: '/github',
-        destination: 'https://github.com/TurboBiscuit/smleaks',
+        destination: 'https://github.com/trbodev/smleaks',
         permanent: true,
       },
     ];

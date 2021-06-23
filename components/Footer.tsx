@@ -14,7 +14,7 @@ export default function Footer() {
     <nav className="navbar navbar-fixed-bottom">
       <ul className={`navbar-nav ${HideMobile['mobile-ml-auto-in']}`}>
         <li className={`nav-item ${HideMobile.mobile}`}>
-          <a className="nav-link" href="https://github.com/TurboBiscuit/smleaks/issues/new?assignees=&labels=new+leaks&template=submit-leaked-content.md&title=">
+          <a className="nav-link" href="https://github.com/trbodev/smleaks/issues/new?assignees=&labels=new+leaks&template=submit-leaked-content.md&title=">
             <FontAwesomeIcon icon={faCloudUploadAlt} className="mr-5" fixedWidth />
             Submit Leaks
           </a>

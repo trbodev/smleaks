@@ -40,7 +40,7 @@ export default function TechnicalInfo() {
                 v
                 {pkgJson.version}
               </div>
-              <a href="https://github.com/TurboBiscuit/smleaks">
+              <a href="https://github.com/trbodev/smleaks">
                 <div className="badge badge-sm">
                   <FontAwesomeIcon icon={faGithub} />
                   {' '}
@@ -141,7 +141,7 @@ export default function TechnicalInfo() {
               >
                 v3.0.0
               </div>
-              <a href="https://github.com/TurboBiscuit/scrap-bot">
+              <a href="https://github.com/trbodev/scrap-bot">
                 <div className="badge badge-sm">
                   <FontAwesomeIcon icon={faGithub} />
                   {' '}
