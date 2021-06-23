@@ -1,2 +1,2 @@
 ## SMLeaks
-![wakatime](https://wakatime.com/badge/github/trbodev/smleaks.svg) ![](https://img.shields.io/tokei/lines/github/trbodev/smleaks) ![](https://img.shields.io/discord/668320727912415233?label=discord)
+![wakatime](https://wakatime.com/badge/github/TurboBiscuit/smleaks.svg) ![](https://img.shields.io/tokei/lines/github/trbodev/smleaks) ![](https://img.shields.io/discord/668320727912415233?label=discord)
