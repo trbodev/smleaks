@@ -32,7 +32,8 @@ export function getStaticProps():GetStaticPropsResult<{
     }
     image: {
       url:string,
-      large:boolean
+      large:boolean,
+      enabled:boolean
     }
 }> {
   return {
@@ -53,6 +54,7 @@ export function getStaticProps():GetStaticPropsResult<{
           Title.src,
         ),
         large: true,
+        enabled: true,
       },
     },
   };
