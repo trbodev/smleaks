@@ -1,7 +1,7 @@
 export const devblog22 = {
-  description: 'New devblog, coming through! This time, we want to focus on some optimisations coming up in the not-too-distant future. (April Fools!)',
-  url: 'https://scrapmechanic.net/news/devblog-22-is-here',
-  date: '04/01/2021',
+  description: 'It’s that special time again when we open up and show off some of the content we’ve been working on at the Scrap Mechanic HQ.',
+  url: 'https://store.steampowered.com/news/app/387990/view/5525343639479722068',
+  date: '09/17/2021',
 };
 export const devblog21 = {
   description: 'New devblog, coming through! This time, we want to focus on a few things that are coming up in the not-too-distant future and also show a few new things that are in the works for the next survival chapter.',

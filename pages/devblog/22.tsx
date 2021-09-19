@@ -7,7 +7,6 @@
 // next imports
 import Image from 'next/image';
 import Head from 'next/head';
-import Link from 'next/link';
 import type { GetStaticPropsResult } from 'next';
 
 // other imports
@@ -93,37 +92,6 @@ export default function Devblog22({
       </div>
       <div className="card">
         <article>
-          <div
-            className="alert"
-            style={{
-              backgroundColor: '#302c19',
-              backgroundImage: 'none',
-              borderColor: '#8c790e',
-            }}
-          >
-            <h6 className="alert-heading">
-              <b>Note:</b>
-            </h6>
-            This was a April Fools joke that me (
-            <a href="https://trbo.sh">Turbo Biscuit</a>
-            ) and
-            {' '}
-            <a href="https://github.com/technologicnick">Technologic Nick</a>
-            {' '}
-            created with the use of the domain name
-            {' '}
-            <a href="https://scrapmechanic.net/news/devblog-22-is-here">
-              scrapmechanic.net
-            </a>
-            {' '}
-            (that I own) and
-            {' '}
-            <a href="https://workers.cloudflare.com">Cloudflare Workers</a>
-            {' '}
-            to
-            host the page.
-          </div>
-          <br />
           <Image
             alt="title"
             src={Title}
@@ -134,48 +102,105 @@ export default function Devblog22({
           />
           <br />
           <br />
-          <b>Calling all Mechanics!</b>
+          <b>Hi Mechanics!</b>
           <br />
-          New devblog, coming through! This time, we want to focus on some
-          optimisations coming up in the not-too-distant future.
-          <br />
-          <br />
-          <br />
-          <a
-            href="#"
-            id="removed-collisions"
-            style={{ display: 'block' }}
-            aria-hidden="true"
-          />
-          <video width="100%" autoPlay loop muted playsInline>
-            <source src="https://i.imgur.com/fPrDJl1.mp4" type="video/mp4" />
-          </video>
+          It’s that special time again when we open up and show off some
+          of the content we’ve been working on at the Scrap Mechanic HQ.
+          This is probably one of the most exciting devblogs we’ve done
+          in a while, as we will be showing off our new digging system!
+          We’re sorry for the long wait, but the features in this devblog
+          have been in the making for a while. We’ve also been working
+          on a lot of story-related things that we don’t want to spoil
+          for you, so we won&apos;t reveal everything just yet!
           <br />
           <br />
-          <b>- Removed collisions</b>
-          <br />
-          In the last couple of weeks we&apos;ve improved our communications
-          with you, the community. One of the most requested features is to
-          optimise the game. This is something something we&apos;ll never stop
-          working on and it&apos;s always ongoing. Today we can bring you a huge
-          milestone in optimisation with the removal of collisions.
-          <br />
-          <br />
-          Say goodbye to collisions ruining all of your tank battles and mechs.
-          This bug in our physics engine has been driving mechanics crazy for
-          years. Thankfully we&apos;ve finally found the source of the lag and
-          have sent in some farmbots to take care of it.
+          So let’s crack open a sunshake and dig in!
           <br />
           <br />
           <br />
           <a
             href="#"
-            id="cotton-madness"
+            id="underground"
             style={{ display: 'block' }}
             aria-hidden="true"
           />
           <Image
-            src={require('../../public/images/imgur/7fBap4n.jpg')}
+            src={require('../../public/images/imgur/C2mi8al.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/KpuBNJJ.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/vbfBCMR.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/A6EU5Uj.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/c5Qeg5r.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/NYi1lY7.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/U5SCBdc.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/UU4sWzm.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/QAFLi1V.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/nuUrJfM.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/goRaYL8.png')}
             placeholder="blur"
             loading="lazy"
             layout="responsive"
@@ -183,31 +208,127 @@ export default function Devblog22({
           />
           <br />
           <br />
-          <b>- Cotton madness</b>
+          <b>- Underground digging and exploration</b>
           <br />
-          In
-          {' '}
-          <Link scroll href="/devblog/20" prefetch={false}>
-            <a>Devblog 20</a>
-          </Link>
-          {' '}
-          we showed off the some of our new clothing for the very first time.
-          Since then we’ve had a ton of great feedback from the community,
-          including many balance tweaks. We’re happy to confirm that the team
-          has increased the cotton spawn rate so you can find it a lot easier.
-          Does it require further increasing? Let us know what you think in the
-          comments!
+          The new chapter will come with a brand new island,
+          housing a huge, collapsed mine and a massive mystery.
+          The new location that you will get to explore will
+          contain a lot of new content and underground biomes.
+          Once in it, you will have to create a mining vehicle
+          and start digging for resources while uncovering small and large cave systems.
+          Some parts of the mines will require special types of
+          drills to get past. In some cases, explosives will be
+          needed. We put a lot of work into making vehicle
+          digging into a fun and creative experience!
+          Here are a few shots showing underground digging and exploration
+          in action for the first time.
+          You can also get a first glimpse of a very dangerous place: the underground station.
+          Keep in mind that these shots don’t have the correct lighting and particles yet;
+          everything will look better in the final version.
           <br />
           <br />
           <br />
           <a
             href="#"
-            id="raid-performance"
+            id="sticky-wheels"
             style={{ display: 'block' }}
             aria-hidden="true"
           />
           <Image
-            src={require('../../public/images/imgur/MKMSSLG.png')}
+            src={require('../../public/images/imgur/UxjU5iY.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/eMUpYto.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/UBG6Sdr.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/oKynkvM.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/pUeaqyC.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <br />
+          <b>- Sticky Wheels Update</b>
+          <br />
+          Here is a little update on the Sticky Wheels we’ve shown previously.
+          We really love how they turned out!
+          They work really well and have a nice,
+          gooey look when you drive. You will definitely need these when digging in the mine.
+          They will most likely have a pink/purple-colored goo
+          by default instead of the yellow/green shown in the GIFs.
+          We are also looking into letting you paint them in other colors.
+          Currently, the Sticky Wheels are using chemicals as a resource,
+          but we are still testing them out, so we can get the
+          perfect balance between consumption and use-time.
+          <br />
+          <br />
+          <br />
+          <a
+            href="#"
+            id="cablebot"
+            style={{ display: 'block' }}
+            aria-hidden="true"
+          />
+          <Image
+            src={require('../../public/images/imgur/X4j4VaZ.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/Keg99vJ.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/c7pNN33.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/9fenvzQ.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/3SlhSzK.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/CxfDTme.png')}
             placeholder="blur"
             loading="lazy"
             layout="responsive"
@@ -215,32 +336,42 @@ export default function Devblog22({
           />
           <br />
           <br />
-          <b>- Raid performance</b>
+          <b>- Cablebot Update</b>
           <br />
-          The next in-development tech is something we’re especially excited to
-          share: lag free raids. The community has shown us performance is very
-          important. We&apos;ve reduced the raid size to a single totebot for
-          maximum performance. In the old raid system performance would often
-          drop to an unplayable level. The new raid system is able to distribute
-          system resources to other systems, which we hope will give Survival a
-          much more smooth feel. We can’t wait for you to try it out yourself!
+          The Cablebots are really starting to shape up.
+          Buried deep underground in the collapsed mine,
+          these clankers come in great numbers, attacking both you and your creations on sight.
+          Sometimes, they might latch onto your creation and gradually eat away at it.
+          Other times, they might simply leech off your battery or fuel resources.
+          You’d better slap them off your creations before they start piling up;
+          that’s when they’re going to do some real damage!
           <br />
           <br />
           <br />
           <a
             href="#"
-            id="offline-play"
-            style={{ display: 'block' }}
-            aria-hidden="true"
-          />
-          <a
-            href="#"
-            id="multiplayer"
+            id="battery-generator"
             style={{ display: 'block' }}
             aria-hidden="true"
           />
           <Image
-            src={require('../../public/images/imgur/76uEf0K.jpg')}
+            src={require('../../public/images/imgur/TkGHjex.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/yhTfbs9.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/UkB1nNq.png')}
             placeholder="blur"
             loading="lazy"
             layout="responsive"
@@ -248,29 +379,173 @@ export default function Devblog22({
           />
           <br />
           <br />
-          <b>- Offline play &gt; multiplayer</b>
+          <b>- Battery Generator</b>
           <br />
-          Mechanics from everywhere around the world like to play our game.
-          Recently we&apos;ve talked with some of our community members about
-          what they think could be improved. Offline play was a feature that got
-          requested a lot. The reason this hasn&apos;t been added yet is because
-          multiplayer requires you to be connected to the Steam servers.
-          <br />
-          <br />
-          Therefore we&apos;re happy to confirm multiplayer will be removed in
-          favor of offline play! This also means there will be less input lag,
-          further increasing performance of the game. To not feel lonely in your
-          world you can spawn friends using the /spawn command!
-          <br />
-          <br />
-          <br />
-          We have an awesome team that is making amazing progress every day,
-          working hard to create a unique gaming experience that you will
-          hopefully love for many years to come. Thanks for your support – and
-          for playing!
+          Electric engines and other things requiring batteries will be
+          very useful during your time underground. And when you’re in need of batteries,
+          there’s nothing more useful than a battery generator:
+          simply place a battery container inside it, spin the
+          red valve and the battery charger will generate new batteries!
+          You can spin manually, by hitting the valve with the hammer.
+          But if you’d rather save time, you can also create a gas
+          engine-powered arm that will spin the valve for you.
+          We plan to introduce more interactive parts in the future,
+          with new, creative ways to interact with like this one.
+          We can&apos;t wait to see how these types of parts will spark your creativity!
           <br />
           <br />
-          <b>Until next time, Mechanics! Keep on scrapping!</b>
+          <br />
+          <a
+            href="#"
+            id="digital-signs"
+            style={{ display: 'block' }}
+            aria-hidden="true"
+          />
+          <Image
+            src={require('../../public/images/imgur/cUFEF6L.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <br />
+          <b>- Digital Signs</b>
+          <br />
+          We finally got around to adding digital signs. In late-game Survival,
+          you often end up with a lot of chests.
+          These signs will let you label things so that they are easier to find.
+          Not just that, but they can also be used to leave a message
+          and help decorate your creations. They come in 3 sizes, with a selection
+          of customizable screen and text colors!
+          <br />
+          <br />
+          <br />
+          <a
+            href="#"
+            id="draggable-wedges"
+            style={{ display: 'block' }}
+            aria-hidden="true"
+          />
+          <Image
+            src={require('../../public/images/imgur/j4SaTNJ.gif')}
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <br />
+          <b>- Wedge Update</b>
+          <br />
+          Shoutout to the wedge gang!
+          We’ve got a lot of requests about adding wedges and we are trying
+          to find a good way of implementing them, so here’s a little update on what we have so far:
+          The problem has been the wedge scaling and removal in Survival.
+          It’s a different system from the simple block scaling.
+          But we will keep testing things out and hopefully,
+          we’ll find a good way that works in Survival.
+          The wedges will be included in the next Chapter.
+          <br />
+          <br />
+          <br />
+          <a
+            href="#"
+            id="plasma-saw"
+            style={{ display: 'block' }}
+            aria-hidden="true"
+          />
+          <Image
+            src={require('../../public/images/imgur/R6nwAvN.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/8B4bMMq.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <br />
+          <b>- Plasma Saw</b>
+          <br />
+          Introducing the Plasma Saw: the saw that is sharp
+          enough to go through trees like butter and even
+          cut through crystal rocks!
+          But why stop there? The Plasma Saw can also be used to boost
+          your creations’ defenses against those pesky bots.
+          <br />
+          <br />
+          <br />
+          <a
+            href="#"
+            id="npcs"
+            style={{ display: 'block' }}
+            aria-hidden="true"
+          />
+          <Image
+            src={require('../../public/images/imgur/JHdJekr.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <Image
+            src={require('../../public/images/imgur/VQufYwZ.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <br />
+          <b>- NPC&apos;s</b>
+          <br />
+          The next chapter will feature a few new NPCs that you will get to interact with.
+          Here is a first look at two of them!
+          <br />
+          <br />
+          <br />
+          <a
+            href="#"
+            id="fancy-tuxedo"
+            style={{ display: 'block' }}
+            aria-hidden="true"
+          />
+          <Image
+            src={require('../../public/images/imgur/jJMexEg.png')}
+            placeholder="blur"
+            loading="lazy"
+            layout="responsive"
+            priority={false}
+          />
+          <br />
+          <br />
+          <b>- Fancy Tuxedo</b>
+          <br />
+          New outfit time!
+          This time, we are taking a break from all the workwear
+          and decided to make a stylish tuxedo instead;
+          just the thing for mechanics who want to adventure in style.
+          As usual, all parts of the tuxedo can be mixed
+          and matched with other outfits, for even more awesome outfit variations!
+          Are there any other types of outfits you&apos;d like
+          to see more of in Scrap Mechanic? Let us know in the comments.
+          <br />
+          <br />
+          <br />
+          That’s all for now, Mechanics!
+          We hope that you have enjoyed looking at all the things we’ve been working on.
+          We would also like to add that we are still looking in to ways we can
+          improving the physics and decrease lag more.
+          <br />
+          <br />
+          See you in the next Devblog!
         </article>
       </div>
       <Comments />
