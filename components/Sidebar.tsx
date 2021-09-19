@@ -114,7 +114,6 @@ export default function Sidebar({
                   id: 'developer-qna',
                   icon: faQuestion,
                   name: 'Developer Q&A',
-                  extraContent: (<div key="new_tag" className="badge badge-primary" style={{ marginLeft: 8, color: 'rgba(255,255,255,.8)', backgroundColor: '#0459a9' }}>New!</div>),
                 },
                 {
                   link: '/credits',
@@ -133,6 +132,7 @@ export default function Sidebar({
                   id: 'devblogs',
                   icon: faBook,
                   name: 'Devblogs',
+                  extraContent: (<div key="new_tag" className="badge badge-primary" style={{ marginLeft: 8, color: 'rgba(255,255,255,.8)', backgroundColor: '#0459a9' }}>New Devblog!</div>),
                 },
                 {
                   link: '/technical-info',
