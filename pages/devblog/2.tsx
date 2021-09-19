@@ -31,7 +31,7 @@ export function getStaticProps():GetStaticPropsResult<{
       date: string
     }
     image: {
-      url:string,
+      src:string,
       large:boolean,
       enabled:boolean
     }
@@ -47,7 +47,7 @@ export function getStaticProps():GetStaticPropsResult<{
         ...devblogSrc,
       },
       image: {
-        url: generateURL(
+        src: generateURL(
           'http',
           config.domain.name,
           config.domain.secure,
