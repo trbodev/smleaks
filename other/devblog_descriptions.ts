@@ -1,3 +1,9 @@
+export const devblog23 = {
+  description: 'Coming Soon',
+  url: 'https://twitter.com/ScrapMechanic/status/1499778843397312516',
+  date_manual: 'Coming Soon',
+};
+
 export const devblog22 = {
   description: 'It’s that special time again when we open up and show off some of the content we’ve been working on at the Scrap Mechanic HQ.',
   url: 'https://store.steampowered.com/news/app/387990/view/5525343639479722068',
@@ -132,4 +138,5 @@ export default [
   devblog20,
   devblog21,
   devblog22,
+  devblog23,
 ];

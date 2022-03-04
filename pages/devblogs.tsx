@@ -29,7 +29,7 @@ export default function Devblogs() {
           {devblogs
             .map((devblog:{
               description:string,
-              date:string,
+              date?:string,
               url:string,
               // eslint-disable-next-line camelcase
               date_manual?:string
